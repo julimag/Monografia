@@ -3,7 +3,6 @@
 %===============================================================================
 \chapter{Introdução}\label{chp:1}
 
-
 %===================================================================
 \section{Motivação e Caracterização do Problema}
 %===================================================================
@@ -20,15 +19,10 @@ A idéia de um software atender a todos, inclusive pessoas com necessidades espec
 \section{Objetivo e Contribuição}
 %===================================================================
 
-% Manifesto Ágil: \cite{Manifesto2001} e Comparação \cite{Comparacao2004}.
-Esta monografia trata da importância do cliente para os testes de acessibilidade no desenvolvimento ágil de software. 
+O objetivo desta monografia é destacar a importância do cliente deficiente ou de alguém conhecedor das limitações dos portadores de necessidades especiais durante o desenvolvimento de software. Nesse contexto, a escolha de métodos ágeis se encaixam de forma natural, uma vez que pregam a participação do cliente durante o processo.
 
-A participação do cliente é requisito no desenvolvimento de software com metodologias ágeis. Seja durante todo o processo de desenvolvimento, seja no final de cada iteração, o cliente tem papel fundamental no sucesso do projeto. 
-
-Da mesma forma, o envolvimento do cliente é fundamental para o pleno atendimento dos critérios de acessibilidade. 
-
-Avaliar a acessibilidade do software com a ajuda do próprio deficiente ou alguém conhecedor de suas necessidades garante maior qualidade ao produto.
-
+Visando minimizar a falta de conhecimento e aumentar as iniciativas na área de acessibilidade digital, esta monografia contribui expondo  O envolvimento do indivíduo capaz de representar o usuário deficiente é algo singular no desenvolvimento de software acessível. 
+E esse aspecto já é assegurado pelos métodos ágeis. Sendo assim, unir a idéia de desenvolvimento de software ágil com a idéia de acessibilidade torna-se algo perfeitamente apropriado.
 
 %===================================================================
 \section{Organização do Texto}%Estrutura do Trabalho

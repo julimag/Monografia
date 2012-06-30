@@ -5,23 +5,18 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[Beck 2004]{XP2004}
-\abntrefinfo{Beck}{BECK}{2004}
-{BECK, K. \emph{{Programa\c{c}{\~a}o Extrerma Explicada: Acolha as
-  Mudan\c{c}as}}. BOOKMAN COMPANHIA ED, 2004.
-ISBN 9788536303871. Dispon{\'\i}vel em:
-  $<$http://books.google.com.br/books?id=xWWPkGLIuxMC$>$.}
-
 \bibitem[Beck et al. 2001]{Manifesto2001}
 \abntrefinfo{Beck et al.}{BECK et al.}{2001}
 {BECK, K. et al. \emph{{Manifesto for Agile Software Development}}. 2001.
 Dispon{\'\i}vel em: $<$http://www.agilemanifesto.org;
   http://www.bibsonomy.org/bibtex/28954248a545d88dd2c0e688d1c7e2f9d/juve$>$.}
 
-\bibitem[Schwaber e Beedle 2001]{Scrum2001}
-\abntrefinfo{Schwaber e Beedle}{SCHWABER; BEEDLE}{2001}
-{SCHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}. 1st.
-  ed. Upper Saddle River, NJ, USA: Prentice Hall PTR, 2001.
-ISBN 0130676349.}
+\bibitem[Sonza 2008]{Sonza2008}
+\abntrefinfo{Sonza}{SONZA}{2008}
+{SONZA, A.~P.
+\emph{{Ambientes virtuais acess{\'i}veis sob a perspectiva de usu{\'a}rios com
+  limita\c{c}{\~a}o visual}}.
+Tese (Doutorado), 2008.
+Dispon{\'\i}vel em: $<$http://hdl.handle.net/10183/14661$>$.}
 
 \end{thebibliography}
