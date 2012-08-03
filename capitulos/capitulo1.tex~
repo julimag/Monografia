@@ -21,10 +21,17 @@ A idéia de um software atender a todos, inclusive pessoas com necessidades espec
 
 O objetivo desta monografia é destacar a importância do cliente deficiente ou de alguém conhecedor das limitações dos portadores de necessidades especiais durante o desenvolvimento de software. Nesse contexto, a escolha de métodos ágeis se encaixam de forma natural, uma vez que pregam a participação do cliente durante o processo.
 
-Visando minimizar a falta de conhecimento e aumentar as iniciativas na área de acessibilidade digital, esta monografia contribui expondo  O envolvimento do indivíduo capaz de representar o usuário deficiente é algo singular no desenvolvimento de software acessível. 
-E esse aspecto já é assegurado pelos métodos ágeis. Sendo assim, unir a idéia de desenvolvimento de software ágil com a idéia de acessibilidade torna-se algo perfeitamente apropriado.
+Esta monografia visa minimizar a falta de conhecimento e aumentar as iniciativas na área de acessibilidade digital. O envolvimento do indivíduo capaz de representar o usuário deficiente é apresentado como algo singular no desenvolvimento de software acessível. E esse aspecto já é assegurado pelos métodos ágeis. Sendo assim, unir a idéia de desenvolvimento de software ágil com a idéia de acessibilidade torna-se algo perfeitamente apropriado.
 
 %===================================================================
 \section{Organização do Texto}%Estrutura do Trabalho
 %===================================================================
+
+Esta monografia está organizada em cinco capítulos. No Capítulo 1, apresenta-se a motivação e caracterização do problema a ser tratado, o objetivo a ser alcançado e a contribuição resultante do desenvolvimento deste trabalho.
+
+O Capítulo 2 expõe a fundamentação teórica relacionada ao tema abordado. São apresentadas as características das metodologias de desenvolvimento de software tradicional e ágil. São citados os conceitos referentes ao design universal, design acessível e tecnologia assistiva digital. São apresentados os conceitos de acessibilidade e usabilidade digital, e também sobre testes de acessibilidade e usabilidade.
+
+O Capítulo 3 descreve o trabalho propriamente dito. Explica o tema proposto com esclarecimentos particulares para a abordagem adotada. Ademais, são destacados os pontos mais relevantes da monografia.
+
+No Capítulo 4 é feita uma análise da contribuição e no Capítulo 5 encontra-se a conclusão final do trabalho.
 

@@ -7,5 +7,3 @@
 \section{Considerações Finais}
 %===================================================================
 
-As tecnologias da informação (hardware e software) são muitas vezes projetadas sem considerar a diversidade de acesso dos vários utilizadores. De fato, muitas pessoas apresentam dificuldades de utilização do teclado, do mouse, do monitor/tela, seja devido a tetraplegia, problemas no controle efetivo das mãos, perda dos membros superiores, paralisia cerebral, cegueira ou baixa visão. Assim, ao projetar sistemas de informação, deve-se prever uma série de possibilidades/alternativas de acesso (ao nível de hardware e de software), contemplando a acessibilidade motora, a acessibilidade auditiva, a acessibilidade visual e a acessibilidade cognitiva. Muitas soluções podem ser implementadas no próprio sistema operacional, e, embora ainda haja um longo caminho a percorrer, alguns já oferecem recursos de acessibilidade que muitos desconhecem e que, em muitos casos, poderão resolver ou, pelo menos, atenuar as dificuldades de acesso ao computador \cite{Correia2005}.
-
