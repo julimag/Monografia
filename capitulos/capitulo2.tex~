@@ -44,7 +44,7 @@ E os princípios são:
  \item Nossa maior prioridade é satisfazer o cliente, através da entrega adiantada e contínua de software de valor;
  \item Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas;
  \item Entregar software funcionando com freqüencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
- \item Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diáriamente, durante todo o curso do projeto;
+ \item Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto;
  \item Construir projetos ao redor de indivíduos motivados. Dando a eles o ambiente e suporte necessário, e confiar que farão seu trabalho;
  \item O Método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara;
  \item Software funcional é a medida primária de progresso;
@@ -125,3 +125,30 @@ Quando tratamos do mundo digital, a acessibilidade pode envolver três grandes ár
 
 % Acessibilidade à Internet refere-se ao desenvolvimento de páginas que estejam disponíveis e acessíveis via web a qualquer hora, local, ambiente, dispositivo de acesso e por qualquer tipo de visitante/usuário. Uma interface que não é acessível a uma determinada pessoa, não poderá ser considerada eficaz, eficiente ou mesmo agradável a ela. A acessibilidade relaciona-se também ao contexto de uso, necessidades e preferências dos usuários típicos \cite{Sonza2008}.
 
+%===================================================================
+\section{Diretrizes de Acessibilidade na Web no Mundo e no Brasil}
+%===================================================================
+
+Visando tornar a web acessível a um número cada vez maior de cidadãos, o W3C criou o WAI (Web Acessibility Initiative - Iniciativa para Acessibilidade na Web), com a atribuição de manter grupos de trabalho elaborando conjuntos de diretrizes para garantir a acessibilidade do conteúdo da Internet a pessoas com deficiências, ou para os que acessam a rede em condições especiais de ambiente, equipamento, navegador e outras ferramentas Web. Como produto de trabalho desta iniciativa, em maio de 1999, foi lançada a primeira versão das Diretrizes para a Acessibilidade do Conteúdo da Web (WCAG 1.0 - Web Contents Accessibility Guidelines) e em 2008, foi lançada a segunda versão deste guia, o WCAG 2.0, sendo, até então, a principal referência em termos de acessibilidade para a Web no mundo \cite{Chalegre2011}.
+
+As medidas governamentais internacionais, referentes à acessibilidade na Web, podem ser divididas em três categorias \cite{W3C2001}, quais sejam:
+
+\begin{enumerate}
+ \item O governo estabelece que os indivíduos com deficiência têm o direito de acesso às informações;
+ \item O governo exige que produtos e serviços vendidos no país atendam a certos critérios de acessibilidade;
+ \item O governo exige que produtos tecnológicos e serviços de informação contratados por órgãos do governo, sejam acessíveis.
+\end{enumerate}
+
+No Brasil, em 2000, foi aprovada a Lei 10.098, de 19 de dezembro, que estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou mobilidade reduzida, e determina outras providências sobre o assunto \cite{Lei2000}. Em 2004, foi criado o Decreto 5.296, que versa, pela primeira vez no Brasil, especificamente sobre acessibilidade na Internet \cite{Lei2004}.
+
+Além dessas leis também foi criado o Comitê Brasileiro (CB) da Associação Brasileira de Normas Técnicas (ABNT), o qual dedica-se à normatização no campo da acessibilidade, atendendo aos preceitos do Design Universal. O comitê, composto por diversas comissões, dedica-se à definição de normas de acessibilidade em todos os níveis, atendendo aos espaços físicos e virtuais \cite{eMAG20051}.
+
+Uma das iniciativas do Governo Eletrônico foi a criação do Modelo de Acessibilidade do Governo Eletrônico (eMAG), datado de 14 de
+dezembro de 2005, intitulado: Recomendações de Acessibilidade para a Construção ou Adaptação de Conteúdos do Governo Brasileiro na Internet - Modelo de Acessibilidade, o qual possui um conjunto de diretrizes com o objetivo de atender ao Decreto 5.296/04 e servir de referência a toda instituição governamental para a construção e adaptação de suas soluções de governo eletrônico com interface web \cite{Chalegre2011}.
+
+O Modelo de Acessibilidade, apresentado sob duas perspectivas:
+
+\begin{enumerate}
+ \item Visão do Cidadão - eMAG, Acessibilidade do Governo Eletrônico - Modelo de Acessibilidade: proporciona uma visão mais lógica e intuitiva do Modelo para não especialistas \cite{eMAG20051};
+ \item Visão Técnica - eMAG, Acessibilidade do Governo Eletrônico - Cartilha Técnica: voltada para especialistas - profissionais responsáveis pelo desenvolvimento das páginas \cite{eMAG20052}.
+\end{enumerate}
