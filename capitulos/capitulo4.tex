@@ -1,12 +1,115 @@
 %===============================================================================
 % CAPITULO 4 - RESULTADOS
 %===============================================================================
-\chapter{Resultados}\label{chp:4}
+\chapter{Análise}\label{chp:4}
 
 %===================================================================
-\section{Análise dos Resultados}
+\section{Potenciais Obstáculos entre o Software e o Deficiente}
+%===================================================================
+
+Apesar da atenção dada às relações entre as pessoas e os computadores, algumas queixas são comuns por parte dos usuários, seja pela não observância, por parte dos desenvolvedores, das diretrizes e critérios definidos pela IHC, seja por possíveis inconsistências nos mesmos. Se isto acontece com usuários ditos normais, que não apresentam nenhum tipo de deficiência, o mesmo ocorre em escala ainda maior com aqueles que apresentam necessidades especiais \cite{Matos2009}.
+
+Muito se deve ao fato de que os desenvolvedores de site, na maioria das vezes, não têm a preocupação durante a construção do site. É comum encontrar o uso de tecnologias que enriquecem visualmente o site, entretanto, criam obstáculos quase intransponíveis para os deficientes. O ideal é que sejam desenvolvidos softwares bonitos e atraentes, mas que também sejam acessíveis e de fácil utilização pelos deficientes \cite{Matos2009}.
+
+\cite{Sonza2008} menciona o fato de que tornar a web indiscriminadamente acessível, removendo as barreiras e contemplando todos os cenários, é uma tarefa que transcende definições de padrões e normas de acessibilidade, pois muitos outros fatores estão envolvidos e os cenários são os mais diversificados possíveis. Mas no estágio atual, prover ambientes plenamente acessíveis a todos os perfis de usuário, ferramentas e situações ainda é uma tarefa árdua.
+
+Algumas das principais dificuldades enfrentadas pelos usuários com limitações sensoriais, cognitivas e físicas são:
+
+%===================================================================
+\subsection{Deficiência Visual}
+%===================================================================
+
+Deficiência com alguma ou grande dificuldade permanente de enxergar.
+
+\textbf{Cegueira}
+
+\begin{enumerate}
+ \item Imagens que não possuem texto alternativo, ou seja, aquelas imagens que não são descritas na página;
+ \item Imagens complexas, como gráficos ou mapas de imagem, que possuem um importante significado para entendimento da página, que não são descritas;
+ \item Vídeos que não possuem descrição textual ou sonora;
+ \item Tabelas que não fazem sentido quando lidas célula por célula ou em modo linearizado;
+ \item Formulários que não podem ser navegados em uma sequência lógica ou que não estão devidamente descritos (rotulados);
+ \item Navegadores e ferramentas de autoria que não possuem suporte de teclado para todos os comandos ou que não utilizam programas de interfaces padronizadas para o sistema operacional em que foram baseados;
+ \item Documentos formatados que não seguem o padrão de desenvolvimento de páginas, o que pode dificultar a interpretação dos mesmos por leitores de tela.
+\end{enumerate}
+
+\textbf{Baixa Visão}
+
+\begin{enumerate}
+ \item Páginas com tamanhos de fonte absoluta, que não podem ser redimensionadas facilmente;
+ \item Páginas que, devido ao layout inconsistente, são difíceis de navegar, quando ampliadas, devido à perda de conteúdos adjacentes;
+ \item Páginas ou imagens que possuem pouco contraste;
+ \item Textos que são apresentados como imagens, pois não quebram a linha quando ampliadas;
+ \item Se o grau residual de visão for muito baixo, as barreiras podem ser as mesmas dos cegos.
+\end{enumerate}
+
+\textbf{Daltonismo}
+
+\begin{enumerate}
+ \item Cor utilizada como único recurso para enfatizar o texto;
+ \item Contrastes inadequados entre cores de fonte e fundo;
+ \item Navegadores que não suportam a opção para o usuário utilizar sua própria folha de estilo.
+\end{enumerate}
+
+%===================================================================
+\subsection{Deficiência Auditiva}
+%===================================================================
+
+Deficiência com alguma ou grande dificuldade permanente de ouvir.
+
+\begin{enumerate}
+ \item Ausência de legenda ou transcrições de áudio;
+ \item Ausência de imagens suplementares relacionadas com o conteúdo do texto. Isso dificulta a compreensão por pessoas que tem, como primeira língua, a Língua de Sinais, e não aquela que está escrita ou a que é falada na página;
+ \item Ausência de linguagem simples e clara;
+ \item Requisitos para a entrada de voz.
+\end{enumerate}
+
+%===================================================================
+\subsection{Deficiência Física e/ou Motora}
+%===================================================================
+
+Deficiência física seja tetraplegia, paraplegia, hemiplegia permanente, falta de membro ou parte dele. E deficiência motora sendo alguma ou grande dificuldade permanente de caminhar ou subir escadas.
+
+\begin{enumerate}
+ \item Atividades em que o tempo de utilização é limitado;
+ \item Páginas em que várias janelas são abertas simultaneamente ou sobrepostas;
+ \item Navegadores e ferramentas que não possuem suporte para um teclado alternativo ou para botões relativos aos comandos efetuados pelo mouse podem causar dificuldades aos deficientes físicos. Isso ocorre quando da utilização de dispositivos apontadores especiais, como aqueles acionados por movimentos de cabeça, do olhar, ou da boca;
+ \item Formulários que não podem ser navegados com a tecla TAB em uma sequência lógica.
+\end{enumerate}
+
+%===================================================================
+\subsection{Deficiência Mental}
+%===================================================================
+
+Deficiência com limitação funcional intelectual.
+
+\begin{enumerate}
+ \item Ausência de alternativas para permitir o recebimento de informações: de texto alternativo que pode ser convertido em áudio, de imagens suplementares, ou de legendas para áudio;
+ \item Elementos visuais ou em áudio que não podem ser facilmente desligados;
+ \item Falta de clareza e consistência na organização das páginas;
+ \item Utilização de linguagem complexa sem necessidade;
+ \item Páginas com tamanhos de fonte absoluta, que não podem ser redimensionadas facilmente;
+ \item Uso de imagens trêmulas ou sinais com uma certa frequência de áudio que podem causar desconforto.
+\end{enumerate}
+
+%===================================================================
+\section{Potenciais Obstáculos entre Acessibilidade e os Métodos Ágeis}
 %===================================================================
 
 % Muitas soluções podem ser implementadas no próprio sistema operacional, e, embora ainda haja um longo caminho a percorrer, alguns já oferecem recursos de acessibilidade que muitos desconhecem e que, em muitos casos, poderão resolver ou, pelo menos, atenuar as dificuldades de acesso ao computador.
+Os mesmos potenciais obstáculos entre usabilidade e os métodos ágeis enumerados por \cite{Falcao2008} também podem ser considerados para a acessibilidade, são eles:
 
+\textbf{Foco e motivação da equipe:} Um dos princípios dos métodos ágeis é o foco em medir o progresso de um projeto de desenvolvimento de software a partir da quantidade de funcionalidades construídas e validadas pelo usuário durante os ciclos semanais. Entretanto, um software funcional não garante um software usável e acessível. No desenvolvimento ágil, as atividades concentram-se na qualidade do código, o que pode diminuir a motivação da equipe em considerar aspectos de usabilidade e acessibilidade.
+
+\textbf{Perfil do cliente:} Mesmo que exista um esforço em se incluir os usuários finais no processo, existe a possibilidade de envolver pessoas que não consigam representar as necessidades comuns de todos os usuários. Dessa forma, mesmo que exista um esforço de colaboração entre os usuários e os desenvolvedores, este fato por si só não garante um produto usável e acessível, haja vista que os métodos ágeis não abordam as práticas de usabilidade e acessibilidade de maneira sistemática.
+
+\textbf{Levantamento de requisitos:} As atividades de coleta de requisitos dentro dos métodos ágeis acontecem através da elaboração de estórias dos usuários (em XP) e da lista priorizada de requisitos (em Scrum). Entretanto, tais atividades podem vir a não contemplar plenamente os requisitos de usabilidade e acessibilidade de um software.
+
+\textbf{Construção das interfaces:} Nos métodos ágeis, é costume iniciar o desenvolvimento de um produto sem uma definição da estrutura geral do produto (incluindo suas interfaces). Como se trata de uma metodologia de desenvolvimento em pequenos ciclos, existe a real possibilidade das características atribuídas às interfaces passarem por mudanças durante o tempo. Dependendo do impacto das mudanças nas interfaces, elas podem se tornar um fator complicador para os usuários que já venham utilizando o sistema entregue em ciclos anteriores.
+
+\textbf{Testes:} Embora as atividades de testes sejam enfatizadas nas metodologias ágeis, não existem práticas específicas para avaliar a usabilidade e a acessibilidade do produto desenvolvido. Os ciclos de desenvolvimento curtos acabam por motivar a equipe a realizar apenas atividades de inspeções de código e testes unitários.
+
+%===================================================================
+\section{Potenciais Soluções}
+%===================================================================
 
