@@ -1,7 +1,7 @@
 %===============================================================================
-% CAPITULO 3 - Metodologia/Análise
+% CAPITULO 3 - Metodologia
 %===============================================================================
-\chapter{Análise}\label{chp:3}
+\chapter{Ágil com Acessibilidade}\label{chp:3}
 
 %===================================================================
 \section{Caracterização do Estudo}
@@ -69,7 +69,7 @@ Unir o desenvolvimento ágil à acessibilidade digital é absolutamente conveniente
 As abordagens adotadas pela metodologia ágil induzem à construção de produtos mais próximos da verdadeira realidade do usuário. É fato que o envolvimento do cliente permite a detecção de falhas de maneira mais precoce, bem como, a flexibilidade dos processos ágeis admite a correção prematura. 
 
 % 
-A partir do momento que exista a intenção de consentir o amplo acesso a todos, deve-se atender, pelo menos, às mínimas exigências para se enquadrar no mundo do design acessível. Diante dos conceituados estudos, tanto do universo de desenvolvimento ágil quanto do universo de acessibilidade digital, é indiscutível o auxílio que o deficiente pode fornecer à produção de software de acesso universal. Não é apenas uma contribuição viável, mas deve ser vista como algo necessário, ou talvez exigível.
+A partir do momento que exista a intenção de consentir o amplo acesso a todos, deve-se atender, pelo menos, às mínimas exigências para se enquadrar no mundo do design acessível. Diante dos conceituados estudos, tanto do universo de desenvolvimento ágil quanto do universo de acessibilidade digital, é indiscutível o auxílio que o deficiente pode fornecer à produção de software de acesso universal. Não é apenas uma possível contribuição, mas deve ser vista como algo necessário, ou talvez exigível.
 
 As metodologias ágeis já consolidades e a necessidade de prover acessibilidade digital permitem uma associação entre uma realidade sólida e uma aspiração viável. 
 
