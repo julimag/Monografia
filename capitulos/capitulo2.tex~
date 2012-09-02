@@ -86,7 +86,7 @@ Entende-se por acessibilidade à rede a possibilidade de qualquer indivíduo, util
 
 O conceito de qualidade de uso mais amplamente utilizado é o da usabilidade. Tal conceito está relacionado à facilidade e eficiência de aprendizado e de uso, bem como, à satisfação do usuário. Quando tratamos de usabilidade, há basicamente duas abordagens fundamentais ao design de ambientes: o ideal artístico e o ideal de engenharia. Embora a arte seja importante, o principal objetivo da maioria dos projetos da web deve ser o de facilitar aos usuários o desempenho de tarefas úteis \cite{Sonza2008}.
 
-Um conceito que começa a ser utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual ao mencionar a importância não apenas de se aplicar as recomendações do W3C, mas também de se tornar os ambientes fáceis de usar para todos, ou seja: aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis \cite{Sonza2008}.
+Um conceito que começa a ser utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual ao mencionar a importância não apenas de se aplicar as recomendações do W3C, mas também de tornar os ambientes fáceis de usar para todos, ou seja: aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis \cite{Sonza2008}.
 
 %===================================================================
 \section{Tecnologia Assistiva Digital}
@@ -98,7 +98,7 @@ A tecnologia assistiva digital refere-se aos sistemas que oferecem soluções para
 
 As tecnologias da informação (hardware e software) são muitas vezes projetadas sem considerar a diversidade de acesso dos vários utilizadores. De fato, muitas pessoas apresentam dificuldades de utilização do teclado, do mouse, do monitor/tela, seja devido a tetraplegia, problemas no controle efetivo das mãos, perda dos membros superiores, paralisia cerebral, cegueira ou baixa visão. Assim, ao projetar sistemas de informação, deve-se prever uma série de possibilidades/alternativas de acesso (ao nível de hardware e de software), contemplando a acessibilidade motora, a acessibilidade auditiva, a acessibilidade visual e a acessibilidade cognitiva \cite{Correia2005}.
 
-Atualmente os próprios sistemas operacionais, inclusive àqueles para dispositivos móveis, possuem alguns recursos de acessibilidade embutidos no próprio software.
+Atualmente os próprios sistemas operacionais, inclusive àqueles para dispositivos móveis, possuem recursos de acessibilidade embutidos no próprio software.
 
 As interfaces com o usuário devem poder ser acessadas por qualquer pessoa, independentemente de suas capacidades físico-motoras e perceptivas, culturais e
 sociais \cite{Nunes2008}.
@@ -129,7 +129,7 @@ Quando tratamos do mundo digital, a acessibilidade pode envolver três grandes ár
 \section{Diretrizes de Acessibilidade na Web no Mundo e no Brasil}
 %===================================================================
 
-Visando tornar a web acessível a um número cada vez maior de cidadãos, o W3C criou o WAI (Web Acessibility Initiative - Iniciativa para Acessibilidade na Web), com a atribuição de manter grupos de trabalho elaborando conjuntos de diretrizes para garantir a acessibilidade do conteúdo da Internet a pessoas com deficiências, ou para os que acessam a rede em condições especiais de ambiente, equipamento, navegador e outras ferramentas Web. Como produto de trabalho desta iniciativa, em maio de 1999, foi lançada a primeira versão das Diretrizes para a Acessibilidade do Conteúdo da Web (WCAG 1.0 - Web Contents Accessibility Guidelines) e em 2008, foi lançada a segunda versão deste guia, o WCAG 2.0, sendo, até então, a principal referência em termos de acessibilidade para a Web no mundo \cite{Chalegre2011}.
+Visando tornar a web acessível a um número cada vez maior de cidadãos, o W3C criou o WAI (Web Acessibility Initiative - Iniciativa para Acessibilidade na Web), com a atribuição de manter grupos de trabalho elaborando conjuntos de diretrizes para garantir a acessibilidade do conteúdo da Internet a pessoas com deficiências, ou para os que acessam a rede em condições especiais de ambiente, equipamento, navegador e outras ferramentas Web. Como produto de trabalho desta iniciativa, em maio de 1999, foi lançada a primeira versão das Diretrizes para a Acessibilidade do Conteúdo da Web (WCAG 1.0) e em 2008, foi lançada a segunda versão deste guia, o WCAG 2.0, sendo, até então, a principal referência em termos de acessibilidade para a Web no mundo \cite{Chalegre2011}.
 
 As medidas governamentais internacionais, referentes à acessibilidade na Web, podem ser divididas em três categorias \cite{W3C2001}, quais sejam:
 
@@ -154,3 +154,5 @@ O Modelo de Acessibilidade, apresentado sob duas perspectivas:
 \end{enumerate}
 
 Tais visões objetivam um acesso de forma padronizada, de fácil implementação, coerente com as necessidades brasileiras e em conformidade com os padrões internacionais.
+
+Existe também um selo concedido por alguns estados do Brasil aos sites interessados, chamado de Selo de Acessibilidade Digital, o qual refere-se à aferição da política de acessibilidade dos websites, que visa atualizar os conceitos de acessibilidade na web e promover o reconhecimento público das boas práticas na orientação de novos projetos de websites e na adaptação dos conteúdos existentes visando à inclusão das pessoas com deficiência ou mobilidade reduzida.

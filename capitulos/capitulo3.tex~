@@ -31,14 +31,11 @@ A Internet pode ser fundamental no cotidiano de pessoas com deficiência, ao pass
 % Acessibilidade na web
 A acessibilidade na web é a característica de permitir o acesso às informações e/ou serviços via internet, em igualdade de condições, a qualquer hora, local, ambiente, dispositivo de acesso e por qualquer tipo de visitante, independentemente de sua capacidade motora, visual, auditiva, mental, computacional, cultural ou social \cite{Selo2009}.
 
-% Beneficios da acessibilidade
-A acessibilidade preconiza a flexibilidade para atender vários tipos de necessidades, situações e preferências. Esta flexibilidade acaba por beneficiar as empresas que investem em acessibilidade e também a todas as pessoas que usam a Internet.
+% Beneficios da acessibilidade e Mito do custo da acessibilidade
+A acessibilidade preconiza a flexibilidade para atender vários tipos de necessidades, situações e preferências. Esta flexibilidade acaba por beneficiar as empresas que investem em acessibilidade e também a todas as pessoas que usam a Internet. É preciso derrubar o mito de que esse tipo de investimento é apenas um custo a mais no projeto e de que serve somente para pessoas com algum tipo de deficiência.
 
 % Capacitacao e conscientização. Selo de acessibilidade
 \cite{Selo2009} expõe que as técnicas de acessibilidade não foram de fato incluídas nos processos de criação e manutenção de sites, sendo ainda preciso investir em capacitação e conscientização de gestores e desenvolvedores sobre sua importância. Mesmo em sites de organizações públicas federais que, a priori, se adequaram às recomendações do governo brasileiro e, portanto, estariam aderentes à legislação que determina que os mesmos sejam acessíveis, não fogem a regra. Apesar de exibirem o selo de acessibilidade, com o passar do tempo e a manutenção, a maior parte dos referidos sites não manteve a aprovação obtida anteriormente.
-
-% Mito do custo da acessibilidade
-É preciso derrubar o mito que acessibilidade é apenas um custo a mais no projeto e serve somente para pessoas com algum tipo de deficiência.
 
 % Qualidade
 O conceito de qualidade de uso está estreitamente relacionado com a capacidade e a facilidade de os usuários atingirem suas metas com eficiência e satisfação. O grau de qualidade de uso de um sistema pode causar aumento ou queda de produtividade dos usuários, podendo também aumentar ou reduzir os custos com suporte técnico para atendimento a esses últimos. A importância de termos ambientes bem projetados reside no fato de possibilitar o acesso a todos os cidadãos. Assim, o fato de disponibilizar aos usuários vias alternativas para a realização de tarefas, com ou sem apoio computacional, aumentará a qualidade de uso daquele sistema. Além da concepção de ambientes bem projetados, a qualidade de uso dos ambientes/sistemas leva em consideração os preceitos do design universal \cite{Sonza2008}.
@@ -57,7 +54,7 @@ Criar um produto plenamente acessível não deve ser visto como um diferencial, ma
 mais favoráveis ao resultado desejado no final.
 
 % Objetivo da monografia
-O presente trabalho não visa julgar os critérios e modelos de avaliação de acessibilidade de sites, nem mesmo estudar as ferramentas de aferição desses critérios. O objetivo é evidenciar o quão natural pode ser o desenvolvido ágil de um site com design acessível. 
+O presente trabalho não visa julgar os critérios e modelos de avaliação de acessibilidade de sites, nem mesmo estudar as ferramentas de aferição desses critérios. O objetivo é evidenciar o quão natural pode ser o desenvolvido ágil de um site com design acessível, ou até universal. 
 
 % Participacao do deficiente
 Uma vez que o desenvolvimento ágil prega a participação do cliente e este pode ser um deficiente, então a obtenção de uma aplicação que o satisfaça torna-se mais provável. A colaboração de alguém conhecedor dos problemas enfrentados pelo usuário final do sistema é, sem dúvida, uma contribuição valiosa.

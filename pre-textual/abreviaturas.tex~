@@ -3,8 +3,9 @@
 \begin{acronym}
 \acro{ABNT}    {-  Associação Brasileira de Normas Técnicas}
 \acro{e-MAG}   {-  Modelo de Acessibilidade de Governo Eletrônico}
-\acro{IHC}   {-  }
-\acro{WAI}     {-  Web Accessibility Initiative}
+\acro{IHC}     {-  Interação Homem-Computador}
 \acro{W3C}     {-  World Wide Web Consortium}
+\acro{WAI}     {-  Web Accessibility Initiative}
+\acro{WCAG}    {-  Web Contents Accessibility Guidelines}
 \acro{XP}      {-  Extreme Programming}
 \end{acronym}
