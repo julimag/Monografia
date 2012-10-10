@@ -11,9 +11,9 @@ O sucesso de um produto depende principalmente de sua qualidade, mas o cumprimen
 
 As metodologias tradicionais dão ênfase ao processo, ao controle do andamento do projeto e à existência de documentação. Enquanto as metodologias ágeis focam as pessoas, a rápida entrega do produto e a obtenção de respostas, além de permitir o cliente participar de forma mais próxima e colaborativa.
 
-Para atingir a plena qualidade, um software deveria atender as recomendações de acessibilidade, pelo menos quando assim o for possível (exceto, por exemplo, softwares embarcados sem nenhum interface).
+Para atingir a plena qualidade, um software deveria atender as recomendações de acessibilidade, pelo menos quando assim o for possível (exceto, por exemplo, softwares embarcados sem nenhuma interface).
 
-A idéia de um software atender a todos, inclusive pessoas com necessidades especiais, é cada vez mais almejada. Diante disso, este trabalho tem por motivação destacar a importância da participação do deficiente e/ou alguém conhecedor de suas necessidades no desenvolvimento do software. Visto que, um dos princípios do desenvolvimento ágil é "privilegiar a comunicação direta, cara a cara", iremos conciliar a idéia da participação do cliente com sua influência na garantia do cumprimento e atendimento da acessibilidade.
+A idéia de um software atender a todos, inclusive pessoas com necessidades especiais, é cada vez mais almejada. Diante disso, este trabalho tem por motivação destacar a importância da participação do deficiente e/ou alguém conhecedor de suas necessidades no desenvolvimento do software. Visto que, um dos princípios do desenvolvimento ágil é ``privilegiar a comunicação direta, cara a cara'', iremos conciliar a idéia da participação do cliente com sua influência na garantia do cumprimento e atendimento da acessibilidade.
 
 %===================================================================
 \section{Objetivo e Contribuição}
@@ -31,7 +31,7 @@ Esta monografia está organizada em cinco capítulos. No Capítulo 1, apresenta-se 
 
 O Capítulo 2 expõe a fundamentação teórica relacionada ao tema abordado. São apresentadas as características das metodologias de desenvolvimento tradicional e ágil de software. São citados os conceitos referentes ao design universal, design acessível e tecnologia assistiva digital. São apresentados os conceitos de acessibilidade e usabilidade digital, e também sobre testes de acessibilidade e usabilidade, além das diretrizes de acessibilidade na web no mundo e no Brasil.
 
-O Capítulo 3 descreve o trabalho propriamente dito. Explica o tema proposto com esclarecimentos particulares para a abordagem adotada. Ademais, são destacados os pontos mais relevantes da monografia.
+O Capítulo 3 descreve o trabalho propriamente dito. Explica o tema proposto com esclarecimentos particulares para o a abordagem adotada. Ademais, são destacados os pontos mais relevantes da monografia.
 
 No Capítulo 4 é feita uma análise da contribuição e no Capítulo 5 encontra-se a conclusão final do trabalho.
 

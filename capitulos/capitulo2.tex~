@@ -13,7 +13,7 @@ Metodologia de desenvolvimento é um conjunto de práticas recomendadas para o des
 \subsection{Desenvolvimento Tradicional}
 %===================================================================
 
-As metodologias tradicionais são também chamadas de pesadas ou orientadas a documentação. Essas metodologias surgiram em um contexto de desenvolvimento de software muito diferente do atual, baseado apenas em um mainframe e terminais burros. Na época, o custo de fazer alterações e correções era muito alto, uma vez que o acesso aos computadores era limitado e não existiam ferramentas modernas de apoio ao desenvolvimento do software, como depuradores e analisadores de código. Por isso, o software era todo planejado e documentado antes de ser implementado. A principal metodologia tradicional e muito utilizada até hoje é o modelo clássico \cite{Soares2004}.
+As metodologias tradicionais são também chamadas de pesadas ou orientadas a documentação. Essas metodologias surgiram em um contexto de desenvolvimento de software muito diferente do atual, baseado apenas em um mainframe e terminais ``burros'' \cite{Royce1987}. Na época, o custo de fazer alterações e correções era muito alto, uma vez que o acesso aos computadores era limitado e não existiam ferramentas modernas de apoio ao desenvolvimento do software, como depuradores e analisadores de código. Por isso, o software era todo planejado e documentado antes de ser implementado. A principal metodologia tradicional e muito utilizada até hoje é o modelo clássico \cite{Soares2004}.
 
 O modelo clássico ou cascata caracteriza-se pelo seu caráter preditivo, prescritivo, sequencial, burocrático, rigoroso, orientado a processos e dados, formais e controlado, que tem o sucesso alcançado desde que esteja em conformidade com o que foi planejado \cite{Mainart2010}.
 
@@ -25,28 +25,28 @@ De uma forma geral, as etapas do modelo clássico são: definição de requisitos, p
 
 Em 2001, um grupo de dezessete profissionais veteranos da área de software se reuniu para discutir sobre seus trabalhos e os métodos utilizados. Embora cada um deles tivesse suas próprias práticas e teorias de como fazer um projeto de software ter sucesso, cada qual com as suas particularidades, eles imaginavam haver um subconjunto de princípios comum. 
 
-A partir do reconhecimento dos aspectos similares, eles criaram o Manifesto para o Desenvolvimento Ágil de Software \cite{Manifesto2001}, freqüentemente chamado apenas de Manifesto Ágil, e o termo Desenvolvimento Ágil passou a descrever abordagens de desenvolvimento que seguissem os tais princípios.
+A partir do reconhecimento dos aspectos similares, eles criaram o Manifesto para o Desenvolvimento Ágil de Software \cite{Manifesto2001}, frequentemente chamado apenas de Manifesto Ágil, e o termo Desenvolvimento Ágil passou a descrever abordagens de desenvolvimento que seguissem os tais princípios.
 
 O manifesto é composto de quatro valores e doze princípios, os quais descrevem a essência de um conjunto de abordagens para desenvolvimento ágil de software. 
 
-Os valores são: 
+Os valores são \cite{Manifesto2001}: 
 
 \begin{enumerate}
- \item Indivíduos e interações ao invés de processos e ferramentas;
- \item Software executável ao invés de documentação;
- \item Colaboração do cliente ao invés de negociação de contratos;
- \item Respostas rápidas a mudanças ao invés de seguir planos.
+ \item Indivíduos e interações mais que processos e ferramentas;
+ \item Software executável mais que documentação;
+ \item Colaboração do cliente mais que negociação de contratos;
+ \item Respostas rápidas a mudanças mais que seguir planos.
 \end{enumerate}
 
-E os princípios são:
+E os princípios são \cite{Manifesto2001}:
 
 \begin{enumerate}
  \item Nossa maior prioridade é satisfazer o cliente, através da entrega adiantada e contínua de software de valor;
  \item Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas;
- \item Entregar software funcionando com freqüencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
+ \item Entregar software funcionando com frequencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
  \item Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto;
  \item Construir projetos ao redor de indivíduos motivados. Dando a eles o ambiente e suporte necessário, e confiar que farão seu trabalho;
- \item O Método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara;
+ \item O método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara;
  \item Software funcional é a medida primária de progresso;
  \item Processos ágeis promovem um ambiente sustentável. Os patrocinadores, desenvolvedores e usuários, devem ser capazes de manter indefinidamente, passos constantes;
  \item Contínua atenção à excelência técnica e bom design, aumenta a agilidade;
@@ -82,11 +82,11 @@ A acessibilidade mede-se em termos de flexibilidade do produto para atender às n
 
 Acessibilidade e usabilidade são alguns dos conceitos que norteiam a qualidade de uso dos sistemas.
 
-Entende-se por acessibilidade à rede a possibilidade de qualquer indivíduo, utilizando qualquer tipo de tecnologia de navegação (navegadores gráficos, textuais, especiais para cegos ou para sistemas de computação móvel), poder visitar qualquer site e obter um total e completo entendimento da informação contida nele, além de ter total e completa habilidade de interação. A acessibilidade das páginas web depende da interação de três elementos, quais sejam: os sistemas de acesso ao computador (ajudas técnicas), os navegadores utilizados e o desenho das páginas que compõem os sites web \cite{Sonza2008}.
+Entende-se por acessibilidade à rede, a possibilidade de qualquer indivíduo, utilizando qualquer tipo de tecnologia de navegação (navegadores gráficos, textuais, especiais para cegos ou para sistemas de computação móvel), poder visitar qualquer site e obter um total e completo entendimento da informação contida nele, além de ter total e completa habilidade de interação. A acessibilidade das páginas web depende da interação de três elementos, quais sejam: os sistemas de acesso ao computador (ajudas técnicas), os navegadores utilizados e o desenho das páginas que compõem os sites web \cite{Sonza2008}.
 
 O conceito de qualidade de uso mais amplamente utilizado é o da usabilidade. Tal conceito está relacionado à facilidade e eficiência de aprendizado e de uso, bem como, à satisfação do usuário. Quando tratamos de usabilidade, há basicamente duas abordagens fundamentais ao design de ambientes: o ideal artístico e o ideal de engenharia. Embora a arte seja importante, o principal objetivo da maioria dos projetos da web deve ser o de facilitar aos usuários o desempenho de tarefas úteis \cite{Sonza2008}.
 
-Um conceito que começa a ser utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual ao mencionar a importância não apenas de se aplicar as recomendações do W3C, mas também de tornar os ambientes fáceis de usar para todos, ou seja: aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis \cite{Sonza2008}.
+Um conceito que começa a ser utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual ao mencionar a importância não apenas de se aplicar as recomendações do W3C \cite{W3C2001}, mas também de tornar os ambientes fáceis de usar para todos, ou seja: aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis \cite{Sonza2008}.
 
 %===================================================================
 \section{Tecnologia Assistiva Digital}
