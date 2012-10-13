@@ -19,4 +19,13 @@ Essa proposta contribui para divulgar e estimular a tecnologia assistiva digital
 
 Todo profissional integrante da esfera digital deve ter em mente que o não cumprimento de requisitos mínimos de acessibilidade implica em um produto de menor qualidade. O resultado final com sucesso só pode ser atingido quando o sistema desenvolvido cumpri, pelo menos, as principais recomendações de acessibilidade (diretrizes internacionais e nacionais).
 
-Um dos trabalhos futuros instigados por essa monografia é a definição de uma estratégia de apoio à institucionalização da acessibilidade com foco em ambientes de desenvolvimento ágil. Bem como, a aplicação de um estudo de caso relacionado aos conceitos abordados em um projeto ágil real.
+Um dos trabalhos futuros instigados por essa monografia é a definição de uma estratégia de apoio à institucionalização da acessibilidade com foco em ambientes de desenvolvimento ágil. Bem como, a aplicação de um estudo de caso relacionado aos conceitos abordados em um projeto ágil real. Ademais, outro desafio é a formalização e adoção sistemática de testes de acessibilidade agregados às metodologias ágeis.
+
+A usabilidade é um conceito que pode ser considerado inclusive em aplicações para celulares. Tais aplicações também devem considerar fatores, que vão desde o tamanho apropriado das letras, a formas de navegação dos sistemas pelos equipamentos disponíveis, objetivando sempre o conforto de uso dos usuários desses sistemas.
+
+O desafio não é atender a um público específico, mas fazer um desenvolvimento universal para todos, independentemente de algum tipo de deficiência. É preciso que as empresas procurem entender as necessidades dos idosos e dos deficientes. Ou seja, o ideal não é adaptar um produto existente a um determinado perfil, mas, sim, já produzir os resultados para todos.
+
+Quando o assunto é adaptar os produtos tecnológicos a diferentes perfis de consumidores, a área de softwares é uma das principais aliadas. O desenvolvimento de programas específicos pode resolver grande parte dos problemas. Dentro dessa perspectiva, um fabricante de celular ao invés de desenvolver fisicamente um aparelho com teclas maiores para oferecer maior conforto aos idosos, por exemplo, pode criar um aplicativo simulador de um display diferente, com um teclado maior que o convencional. O hardware, ou o aparelho em si, continua igual. O que se adapta é o sistema.
+
+Para tentar incentivar novas iniciativas, o escritório brasileiro do W3C lançou o prêmio Todos@Web - Prêmio Nacional de Acessibilidade na Web, o qual tem como meta promover nacionalmente a acessibilidade na web, de forma a conscientizar desenvolvedores e homenagear pessoas e/ou organizações por ações significativas em prol do acesso de pessoas com deficiências na web \cite{TodosWeb2011}.
+

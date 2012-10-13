@@ -25,6 +25,9 @@ Para o desenvolvimento desta monografia, foram seguidos os seguintes passos:
 % Inclusao digital e papel do cliente
 Apesar de já existir diversos elementos auxiliares para facilitar a inclusão digital de pessoas com certas limitações, é preciso termos consciência da importância de considerar a condição restritiva de cada um. O desenvolvimento de software acessível não deve se resumir apenas a atender uma lista de recomendações de um dado modelo de acessibilidade. Os itens definidos nos modelos existentes são meras instruções para orientar o desenvolvimento de software, ou seja, servem de guia para o projeto, mas o papel do cliente conhecedor das necessidades especiais e suas preferências é fundamental.
 
+% Otimizar acesso sem prejudicar características gráficas e funcionalidades
+O acesso aos benefícios da Internet deve ser otimizado buscando reduzir as discriminações e as exclusões sem, com isso, prejudicar suas características gráficas ou suas funcionalidades. A acessibilidade passa a ser entendida como sinônimo de aproximação, um meio de disponibilizar a cada usuário interfaces que respeitem suas necessidades e preferências \cite{Conforto2002}.
+
 % Importancia da internet para os deficientes
 A Internet pode ser fundamental no cotidiano de pessoas com deficiência, ao passo que permite a criação de novas formas de relacionamento, alternativas de diversão, oportunidades de trabalho, acesso a informações que antes só podiam ser obtidas com a mediação de terceiros, entre outras facilidades. 
 
@@ -36,6 +39,9 @@ A acessibilidade preconiza a flexibilidade para atender vários tipos de necessid
 
 % Capacitacao e conscientização. Selo de acessibilidade
 \cite{Selo2009} expõe que as técnicas de acessibilidade não foram de fato incluídas nos processos de criação e manutenção de sites, sendo ainda preciso investir em capacitação e conscientização de gestores e desenvolvedores sobre sua importância. Mesmo em sites de organizações públicas federais que, a priori, se adequaram às recomendações do governo brasileiro e, portanto, estariam aderentes à legislação que determina que os mesmos sejam acessíveis, não fogem a regra. Apesar de exibirem o selo de acessibilidade, com o passar do tempo e a manutenção, a maior parte dos referidos sites não manteve a aprovação obtida anteriormente.
+
+% Beneficios para todos sem prejudicar características gráficas ou funcionais
+Muitas vezes as discussões sobre acessibilidade ficam reduzidas às limitações físicas ou sensoriais dos sujeitos com necessidade especiais, mas esses aspectos podem trazer benefícios a um número bem maior de usuários, permitindo que os conhecimentos disponibilizados na Web possam estar acessíveis a uma audiência muito maior, sem com isso, prejudicar suas características gráficas ou funcionais \cite{Conforto2002}.
 
 % Qualidade
 O conceito de qualidade de uso \cite{ISOIEC9126} está estreitamente relacionado com a capacidade e a facilidade de os usuários atingirem suas metas com eficiência e satisfação. O grau de qualidade de uso de um sistema pode causar aumento ou queda de produtividade dos usuários, podendo também aumentar ou reduzir os custos com suporte técnico para atendimento a esses últimos. A importância de termos ambientes bem projetados reside no fato de possibilitar o acesso a todos os cidadãos. Assim, o fato de disponibilizar aos usuários vias alternativas para a realização de tarefas, com ou sem apoio computacional, aumentará a qualidade de uso daquele sistema. Além da concepção de ambientes bem projetados, a qualidade de uso dos ambientes/sistemas leva em consideração os preceitos do design universal \cite{Sonza2008}.
@@ -49,6 +55,9 @@ Tornar um site totalmente acessível é uma tarefa impossível, pois existem inúmer
 % Obrigacao de acessibilidade
 Criar um produto plenamente acessível não deve ser visto como um diferencial, mas sim como o correto a ser feito. Na verificação e validação deve-se considerar a aplicação de quesitos de acessibilidade, cujo o não cumprimento indiquem insucesso no processo. Dessa forma, é possível identificar previamente falhas no atendimento dos mínimos critérios. O software de boa qualidade tem que atender as condições de acessibilidade e usabilidade. E a correção prematura dos problemas identificados diminui a probabilidade do software ser concluído com baixa qualidade.
 
+% Beneficiar usuários sem infra-estrutura
+A acessibilidade à Internet normalmente aponta para um potencial de participação de milhões de sujeitos com necessidades especiais, contudo, projetos acessíveis podem beneficiar usuários sem infra-estrutura de comunicação ou em ambiente com características que não lhes são favoráveis. Existem muitas situações em que os recursos disponíveis nos sites da Internet não são acessíveis a todos os usuários \cite{Conforto2002}.
+
 % Processo agil e a participacao do cliente deficiente
 É fato que a participação do cliente no desenvolvimento de software influencia positivamente no resultado. Ademais, é possível afirmar, com convicção, que a atuação do usuário deficiente ou de alguém capaz de representá-lo durante a criação do produto é ainda mais importante. O envolvimento do portador de necessidades especiais é perfeitamente adequado ao processo ágil e ideal para o êxito, garantindo consequências satisfatórias. A percepção dessa pessoa é mais apurada, uma vez que ela sabe observar os detalhes que a afetam. Ela também é capaz de detectar a existência de falhas de forma mais prematura durante o desenvolvimento. E as possíveis interferências desse integrante da equipe podem gerar decisões e mudanças de forma mais rápida e, consequentemente,
 mais favoráveis ao resultado desejado no final.
@@ -60,7 +69,7 @@ O presente trabalho não visa julgar os critérios e modelos de avaliação de acess
 Uma vez que o desenvolvimento ágil prega a participação constante do cliente e este pode ser um deficiente, então a obtenção de uma aplicação que o satisfaça torna-se mais provável. A colaboração de alguém conhecedor dos problemas enfrentados pelo usuário final do sistema é, sem dúvida, uma contribuição valiosa.
 
 % Desenvolvimento agil e acessibilidade
-Unir o desenvolvimento ágil à acessibilidade digital é absolutamente conveniente. O manifesto ágil expõe conceitos que se adequam ao mundo da acessibilidade. Dentre os quatros valores do desenvolvimento ágil, é possível destacar a \textit{Colaboração do cliente ao invés de negociação de contratos} e, dentre os princípios, enfatiza-se dois: \textit{Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto} e \textit{O Método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara}.
+Unir o desenvolvimento ágil à acessibilidade digital é conveniente. O manifesto ágil expõe conceitos que se adequam ao mundo da acessibilidade. Dentre os quatros valores do desenvolvimento ágil, é possível destacar a \textit{Colaboração do cliente mais que negociação de contratos} e, dentre os princípios, enfatiza-se dois: \textit{Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto} e \textit{O método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara}.
 
 % Vantagem do cliente na metodologia agil
 As abordagens adotadas pela metodologia ágil induzem à construção de produtos mais próximos da verdadeira realidade do usuário. É fato que o envolvimento do cliente permite a detecção de falhas de maneira mais precoce, bem como, a flexibilidade dos processos ágeis admite a correção prematura. 
@@ -70,11 +79,37 @@ A partir do momento que há a intenção de consentir o amplo acesso a todos, deve-
 
 As metodologias ágeis já consolidades e a necessidade de prover acessibilidade digital permitem uma associação entre uma realidade sólida e uma aspiração viável. 
 
-% Permitir o acesso universal não é apenas uma pretenção
+% Simplicidade
+Simplicidade de software não é redução de funcionalidades, mas sim, facilidade de uso. O modelo intuitivo e lógico do usuário deve estar próximo do modelo de programação. É errado pensar que o termo simplicidade na web refere-se apenas à estética e preocupar-se apenas com o design simplório e a excelente aparência visual. Quando as pessoas pedem simplicidade no mundo digital, elas querem operações com somente um toque de botão e que todas suas funcionalidades favoritas estejam facilmente disponíveis.
 
-%===================================================================
-% \section{Deficiente Visual}
-%===================================================================
+% Manifesto agil e simplicidade
+Um dos princípios do manifesto ágil é a simplicidade. A idéia é evitar complicações, artifícios, extravagâncias e excessos, em benefício de um processo enxuto com foco na naturalidade e naquilo que é simples. Tal postura é mais favorável a mudanças, pois é mais fácil incluir/remover/alterar algo em um processo simples do que fazer o mesmo em um processo complicado.
 
-% Problema visual
-% A facilidade que um usuário tem em interagir com uma interface está ligada aos aspectos de usabilidade, mas é também função da capacidade desse usuário detectar, interpretar e responder apropriadamente às informações do sistema. No ambiente computacional, grande parte da informação é apresentada na forma visual, o que faz com que a capacidade de usar computadores dependa muito de uma cadeia complexa de processos visuais \cite{Nunes2008}.
+% Vantagem da visao minimalista
+A visão minimalista para atender ao cliente com o que ele realmente precisa reduz as chances de insucesso e a necessidade de retrabalho. Manter o foco na criação de real valor para o cliente também induz a um melhor controle de custo.
+
+% Recomendacoes de acessibilidade w3c e relacao entre simplicidade e acessibilidade
+As recomendações de acessibilidade W3C abordam dois temas genéricos: assegurar uma transformação harmoniosa e tornar o conteúdo compreensível e navegável.  A observância destas recomendações propicia, a qualquer usuário, acesso mais rápido às informações na Web. É possível, estabelecer uma relação direta entre o conceito de simplicidade e acessibilidade digital. A primeira favorece a segunda.
+
+% Manifesto e acessibilidade
+Uma vez que o manifesto ágil prega a simplicidade e esta é capaz de auxiliar no acesso de todos, pode-se, então, reconhecer uma ligação exitosa entre metodolodia ágil e acessibilidade. As metodogias ágeis oferecem motivos e razões suficientes para justificar seu uso nos projetos de acessibilidade. Em suma, é viável pensar na adoção do desenvolvimento ágil com foco no acesso universal.
+
+% Empresas e acessibilidade
+Investimentos em acessibilidade digital pode ser rentável para as empresas. É mais fácil proporcionar o acesso adequado de uma pessoa com deficiência a um determinado produto via internet do que ofertar acessibilidade para o seu deslocamento físico até o local de aquisição do mesmo produto.
+
+% Dificuldades favorecem o uso do mundo digital
+Diante das inúmeras dificuldades enfrentadas pelos deficientes e da falta de respeito aos seus direitos, muitos deles optam por buscar meios para contornar, pelo menos, os problemas mais frequentes. Desde a aquisição de um produto até a própria busca pela qualificação profissional são fatores que impulsionam esse grupo de pessoas a adotar cada vez mais o mundo digital no seu dia a dia.
+
+% Capacitacao de equipe de projeto
+Proporcionar o acesso universal não é apenas uma questão tecnológica, isto é, não se restringe somente a disponibilização de novos recursos e ferramentas avançadas mas envolve também a capacitação dos profissionais envolvidos na produção das funcionalidades. A equipe de projeto deve estar preparada para conceber um resultado inclusivo e não excludente.
+
+% IHC, usabilidade, acessibilidade e inteligibilidade
+A  construção de ambientes, produtos e serviços inclusivos, que considerem as necessidades de toda a população, na maior extensão possível, é urgente na sociedade contemporânea. Diante disso, é pertinente investigar aspectos de usabilidade, acessibilidade e inteligibilidade em soluções de interface que tragam melhores resultados em termos de facilidade no uso de computadores por um público analfabeto ou com baixo letramento, idoso e/ou com algum tipo de deficiência, tirando proveito das habilidades e capacidades que este já possui e que utiliza em seu dia-a-dia. Assim, barreiras iniciais ao uso de computadores podem ser transpostas, além de visar a uma crescente autonomia na interação humano-computador. O trato com um público tão rico em diferenças exige reflexões sobre os métodos e as técnicas utilizadas, inclusive no que diz respeito à abordagem e ao seu engajamento no design e na avaliação de sistemas interativos \cite{Melo2009}.
+
+% Experiencia do usuario
+Cada vez mais encontram-se designs complexos e produtos difíceis de usar. Segundo \cite{Gomes2009}, cabe aos projetistas a tarefa de pensar como se fossem usuários interagindo com os sistemas. Devido aos projetistas estarem envolvidos com a idéia estruturada do sistema, observar a experiência de usuários reais com o sistema se torna uma oportunidade ideal para entender sua interação. Por experiência do usuário entende-se por todo tipo de experiência e de satisfação de um usuário usando um produto ou sistema. Os usuários, ao interagirem com um sistema poderão encontrar uma resposta para suas necessidades e expectativas, fornecendo opiniões e sugestões sobre o mesmo. 
+
+% caracteristicas dos metodos ageis e o cliente
+Nos métodos Ágeis, as decisões são tomadas mais rapidamente e há mais comunicação. Eles aproximam os desenvolvedores e gestores pois existe uma maior e melhor comunicação (bom ambiente pode ser sinônimo de maior produtivade dos indivíduos). Objetiva-se aplicações que atendam as necessidades reais de negócio. Não se entrega um grande projeto ao cliente que não foi por ele testado, e que só quando o vê percebe-se que não era bem aquilo que ele queria, apesar de corresponder às especificações iniciais. Os clientes são considerados parte da equipe de desenvolvimento, uma vez que a todo o momento são questionados sobre prioridades e testes de versões \cite{Tomas2009}.
+
+
