@@ -94,11 +94,16 @@ As recomendações de acessibilidade W3C abordam dois temas genéricos: assegurar u
 % Manifesto e acessibilidade
 Uma vez que o manifesto ágil prega a simplicidade e esta é capaz de auxiliar no acesso de todos, pode-se, então, reconhecer uma ligação exitosa entre metodolodia ágil e acessibilidade. As metodogias ágeis oferecem motivos e razões suficientes para justificar seu uso nos projetos de acessibilidade. Em suma, é viável pensar na adoção do desenvolvimento ágil com foco no acesso universal.
 
+É necessário lembrar que há um grupo importante de usuários com problemas de deslocamento, no plano físico, e de navegação, no espaço digital, para os quais o critério estético pode ser um obstáculo. Deve-se considerar sempre que a estética não precisa ser adversária da acessibilidade \cite{Torres2003}.
+
 % Empresas e acessibilidade
 Investimentos em acessibilidade digital pode ser rentável para as empresas. É mais fácil proporcionar o acesso adequado de uma pessoa com deficiência a um determinado produto via internet do que ofertar acessibilidade para o seu deslocamento físico até o local de aquisição do mesmo produto.
 
 % Dificuldades favorecem o uso do mundo digital
 Diante das inúmeras dificuldades enfrentadas pelos deficientes e da falta de respeito aos seus direitos, muitos deles optam por buscar meios para contornar, pelo menos, os problemas mais frequentes. Desde a aquisição de um produto até a própria busca pela qualificação profissional são fatores que impulsionam esse grupo de pessoas a adotar cada vez mais o mundo digital no seu dia a dia.
+
+% acessibilidade
+A acessibilidade é um processo dinâmico, associado não só ao desenvolvimento tecnológico, mas principalmente ao desenvolvimento da sociedade. Apresenta-se em estágios distintos, variando de uma sociedade para a outra, conforme seja a atenção dispensada à diversidade humana, por essa sociedade, à época \cite{Torres2003}.
 
 % Capacitacao de equipe de projeto
 Proporcionar o acesso universal não é apenas uma questão tecnológica, isto é, não se restringe somente a disponibilização de novos recursos e ferramentas avançadas mas envolve também a capacitação dos profissionais envolvidos na produção das funcionalidades. A equipe de projeto deve estar preparada para conceber um resultado inclusivo e não excludente.
@@ -109,7 +114,32 @@ A  construção de ambientes, produtos e serviços inclusivos, que considerem as ne
 % Experiencia do usuario
 Cada vez mais encontram-se designs complexos e produtos difíceis de usar. Segundo \cite{Gomes2009}, cabe aos projetistas a tarefa de pensar como se fossem usuários interagindo com os sistemas. Devido aos projetistas estarem envolvidos com a idéia estruturada do sistema, observar a experiência de usuários reais com o sistema se torna uma oportunidade ideal para entender sua interação. Por experiência do usuário entende-se por todo tipo de experiência e de satisfação de um usuário usando um produto ou sistema. Os usuários, ao interagirem com um sistema poderão encontrar uma resposta para suas necessidades e expectativas, fornecendo opiniões e sugestões sobre o mesmo. 
 
+% diferenca participacao cliente no tradicional e no agil
+\cite{Costa2011} expõe a importância da participação do cliente e destaca o envolvimento desse como sendo o motivo número um para o
+sucesso do projeto, enquanto a falta de envolvimento do usuário foi a principal razão dada para os projetos que tiveram dificuldades. O autor também diferencia a forma de envolvimento do cliente nas abordagens tradicionais e nos métodos ágeis; no primeiro caso, o cliente está envolvido principalmente durante a fase de requisitos e não durante a fase do desenvolvimento do software em si, já no segundo caso, o cliente participa do processo de desenvolvimento como um todo.
+
 % caracteristicas dos metodos ageis e o cliente
 Nos métodos Ágeis, as decisões são tomadas mais rapidamente e há mais comunicação. Eles aproximam os desenvolvedores e gestores pois existe uma maior e melhor comunicação (bom ambiente pode ser sinônimo de maior produtivade dos indivíduos). Objetiva-se aplicações que atendam as necessidades reais de negócio. Não se entrega um grande projeto ao cliente que não foi por ele testado, e que só quando o vê percebe-se que não era bem aquilo que ele queria, apesar de corresponder às especificações iniciais. Os clientes são considerados parte da equipe de desenvolvimento, uma vez que a todo o momento são questionados sobre prioridades e testes de versões \cite{Tomas2009}.
 
+% acessibilidade
+Conforme afirma \cite{Torres2003}, a acessibilidade no espaço digital consiste em tornar disponível ao usuário, de forma autônoma, toda a informação que lhe for franqueável (informação para a qual o usuário tenha código de acesso ou, então, esteja liberada para todos os usuários), independentemente de suas características corporais, sem prejuízos quanto ao conteúdo da informação. Essa acessibilidade é obtida combinando-se a apresentação da informação de formas múltiplas, seja através de uma simples redundância, seja através de um sistema automático de transcrição de mídias, com o uso de ajudas técnicas (sistemas de leitura de tela, sistemas de reconhecimento da fala, simuladores de teclado etc.) que maximizam as habilidades dos usuários que possuem limitações associadas a deficiências.
+
+% dispositivos moveis e inclusao digital
+Os dispositivos móveis também fazem parte do mundo digital e podem influenciar na produtividade das pessoas com a ajuda de diversos softwares, inclusive com as versões compactas daqueles já existentes nos computadores desktops. Esses dispositivos também podem contribuir para a inclusão digital das pessoas com deficiência. Do ponto de vista de software, a presença de aplicativos nativos de acessibilidade em alguns aparelhos já simboliza um avanço para derrubar barreiras e difundir o acesso universal. No entanto, do ponto de vista de hardware, alguns modelos de dispositivos móveis, mesmo com o avanço tecnológico, dificultam consideravelmente o uso universal.
+
+% celulares e usabilidade
+Muitas das funções presentes em um computador desktop foram transportadas para os celulares. O resultado disso, devido às limitações de processamento e tela, são aplicações difíceis de utilizar. Todos esses agravantes tornam-se um desafio para os fabricantes. É difícil conseguir alinhar o grande acúmulo de funções do aparelho com a usabilidade. O ideal é avaliar a usabilidade das funções desde o desenvolvimento. Ao desenvolver uma aplicação, deve-se ter em mente uma interface extremamente fácil e atraente, pois a primeira atitude dos usuários mais comuns é tentar utilizá-lo através da tentativa e erro \cite{Araujo2009}.
+
+Conforme menciona \cite{Fernandes2012}, os sistemas móveis precisam ter interfaces rápidas e de fácil aprendizado, apesar das restrições de hardware, a navegação deve ser prazerosa, possibilitando uma boa experiência de uso aos usuários cada vez mais exigentes e plurais. Além disso, a interface deve ser elaborada pensando-se na grande diversidade de sistemas operacionais e suas versões, além da vasta quantidade de aparelhos das mais diversas marcas e tecnologias. Os sistemas devem se manter em constante atualização para que não se tornem obsoletos e não impactem de maneira negativa nas interfaces e na forma de interação com as aplicações. 
+
+Outra questão relevante, citada por \cite{Fernandes2012}, são as limitações ergonômicas dos dispositivos. O autor reconhece que várias áreas da computação precisam, de forma articulada, contribuir para a solução desses desafios, de modo a possibilitar que mais indivíduos se tornem conectados com a mobilidade. A maximização do acesso ao conhecimento começa com vencer esses desafios de interface/interação. E assim o cidadão terá mais oportunidades de adquirir novos conhecimentos através das aplicações, em qualquer lugar e, a qualquer tempo.
+
+% observacao
+\cite{Melca2007} afirma que a observação é essencial para a validação de um modelo de produção de recursos acessíveis para a internet pois certifica que a abordagem e as tecnologias utilizadas estão adequadas para atender a demanda.
+
+% implantacao de metodologia agil
+Segundo \cite{Gabardo2009}, a implantação de métodos ágeis depende fundamentalmente de criar um clima de administração participativa dos projetos entre os desenvolvedores, onde a motivação das pessoas é causa do aumento de produtividade. Para implantar métodos ágeis precisa haver a mudança no estilo gerencial para a gerência participativa. As metodologias ágeis dependem de pessoas que têm iniciativa e são motivadas para o trabalho.
+
+% envolvimento do cliente
+O trabalho de \cite{Costa2011} ressalta que ter acesso ao cliente é um ponto-chave em todas as técnicas de desenvolvimento ágil. Esta é a base para uma comunicação e um feedback rápido. Ambos levam a uma melhor compreensão dos requisitos (no lado do desenvolvedor) e do processo de desenvolvimento (no lado do cliente). Envolver o cliente é o primeiro objetivo das abordagens ágeis. O ideal é um representante do usuário, aquele que: pode responder corretamente todas as perguntas que os desenvolvedores possam ter, esteja habilitado a tomar decisões vinculativas e seja capaz de tomar as decisões corretas.
 
