@@ -7,47 +7,64 @@
 \section{Considerações Finais}
 %===================================================================
 
+% objetivo agil e acessibilidade
 O principal objetivo dessa monografia é destacar a existência de uma relação natural entre o desenvolvimento ágil de software e a acessibilidade digital. Sabe-se que o primeiro prega a participação contínua do cliente e, ao pensar em garantir o segundo, o participante passa a ser então um indivíduo conhecedor das dificuldades e necessidades dos deficientes.
 
-% Objetivo da monografia
-O presente trabalho não visa julgar os critérios e modelos de avaliação de acessibilidade de software, nem mesmo estudar as ferramentas de aferição desses critérios. O objetivo é evidenciar o quão natural pode ser o desenvolvido ágil para web com design acessível, ou até universal. 
+% nao eh objetivo e objetivo real
+O presente trabalho não visa julgar os critérios e modelos de avaliação de acessibilidade de software, nem mesmo estudar as ferramentas de aferição desses critérios. O objetivo é evidenciar o quão natural pode ser o desenvolvimento ágil para web com design acessível, ou até universal. 
 
+% justificativa do tema da monografia
 Diante da importância do tema acessibilidade e a necessidade de disseminação e aplicação dos seus conceitos, essa monografia apresenta-se como um trabalho promissor, pois há indícios da veracidade daquilo que se propõe. Ademais, no mundo de produção de software, a adoção de metodologias ágeis já é algo presumível.
 
-A fim de conseguir êxito nesse trabalho de conclusão de curso, foi necessário, inicialmente, identificar um tema relacionado ao curso e cujo assunto fomentasse novas pesquisas. Após encontrar a proposta de estudo, foi realizada uma ampla pesquisa bibliográfica e, concomitantemente, a escrita para documentação do conteúdo abordado.
+% tema e estudo
+A fim de conseguir êxito nesse trabalho de conclusão de curso, foi necessário, inicialmente, identificar um tema relacionado ao curso e cujo assunto fomentasse novas pesquisas. Após encontrar a proposta de estudo, foi realizada a pesquisa bibliográfica e, concomitantemente, a escrita para documentação do conteúdo abordado juntamente com a análise.
 
+% agil e acessibilidade
 A partir do momento que este trabalho foi capaz de identificar e expor a possibilidade de junção entre o mundo ágil e o acessível, percebe-se que a escolha de uma metodologia ágil, ao invés de uma tradicional, na produção de um sistema de design universal é então sinal de maturidade.
 
+% contribuicao
 Essa proposta contribui para divulgar e estimular a tecnologia assistiva digital (discutido no capítulo 2). É preciso que todo sistema seja produzido com a participação contínua do cliente (representante do) deficiente. 
 
+% acessibilidade e qualidade
 Todo profissional integrante da esfera digital deve ter em mente que o não cumprimento de requisitos mínimos de acessibilidade implica em um produto de menor qualidade. O resultado final com sucesso só pode ser atingido quando o sistema desenvolvido cumpri, pelo menos, as principais recomendações de acessibilidade (diretrizes internacionais e nacionais).
 
+% 3 trabalhos futuros
 Um dos trabalhos futuros instigados por essa monografia é a definição de uma estratégia de apoio à institucionalização da acessibilidade com foco em ambientes de desenvolvimento ágil. Bem como, a aplicação de um estudo de caso relacionado aos conceitos abordados em um projeto ágil real. Ademais, outro desafio é a formalização e adoção sistemática de testes de acessibilidade agregados às metodologias ágeis.
 
+% desafio
 O desafio não é atender a um público específico, mas fazer um desenvolvimento universal para todos, independentemente de algum tipo de deficiência. É preciso que as empresas procurem entender as necessidades dos idosos e dos deficientes. Ou seja, o ideal não é adaptar um produto existente a um determinado perfil, mas, sim, já produzir os resultados para todos.
 
+% adptar software e hardware, por exemplo celular
 Quando o assunto é adaptar os produtos tecnológicos a diferentes perfis de consumidores, a área de softwares é uma das principais aliadas. O desenvolvimento de programas específicos pode resolver grande parte dos problemas. Dentro dessa perspectiva, um fabricante de celular ao invés de desenvolver fisicamente um aparelho com teclas maiores para oferecer maior conforto aos idosos, por exemplo, pode criar um aplicativo simulador de um display diferente, com um teclado maior que o convencional. O hardware continua igual; o que se adapta é o sistema.
 
+% premio acessibilidade web
 Para tentar incentivar novas iniciativas, o escritório brasileiro do W3C lançou o prêmio Todos@Web - Prêmio Nacional de Acessibilidade na Web, o qual tem como meta promover nacionalmente a acessibilidade na web, de forma a conscientizar desenvolvedores e homenagear pessoas e/ou organizações por ações significativas em prol do acesso de pessoas com deficiências na web \cite{TodosWeb2011}.
 
+% democratização, acesso às tecnologias
 A democratização da sociedade passa pela possibilidade dos segmentos excluídos até então terem acesso às tecnologias e, portanto, condições de utilizarem tais recursos com o objetivo de lhes proporcionar maior independência, qualidade de vida e inclusão social, através da ampliação de sua comunicação, mobilidade, controle de seu ambiente, habilidades de seu aprendizado, trabalho e integração com a família, amigos e sociedade \cite{Melca2007}.
 
+% espaço digital e acessibilidade
 O espaço digital tende a ser a via mais transitável por todas as pessoas que procuram informações e dispõem de acesso à internet e aos computadores. Sendo assim, é importante que seja um espaço mais socialmente inclusivo, com acessibilidade a todos, respeitando suas capacidades e limitações.
 
+% obstáculo de acesso à informação
 Segundo \cite{Torres2003}, embora pareça contraditório, pode-se afirmar que as barreiras arquitetônicas não são o maior obstáculo enfrentado pelas pessoas portadoras de deficiência. O maior obstáculo está no acesso à informação e, consequentemente, a aspectos importantes relacionados à informação, como a educação, o trabalho e o lazer. A preocupação atual dos defensores da acessibilidade está em garantir que esses princípios sejam observados também no espaço digital, o espaço da informática e das comunicações. A Internet tem sido muito usada para exemplificar esse conceito, por conter aspectos fundamentais de ambas as tecnologias.
 
+% desafio, sociedade inclusiva e informação
 A garantia do direito à diversidade é um desafio que deve ser enfrentado por todos, na busca de uma sociedade inclusiva, conquistando a convivência harmoniosa e digna para todos. A informação é a matéria prima da construção do conhecimento, ela se torna o elemento-chave na formação de uma sociedade justa e igualitária, fornece uma condição essencial para que as pessoas e organizações estejam aptas a lidar com o novo, a criar e, assim, garantir seu espaço de liberdade e autonomia, citado por \cite{Melca2007}.
 
+% produto digital, usabilidade, acessibilidade e qualidade
 \cite{Torres2004} assegura que tanto o produtor quanto o consumidor são sujeitos ativos no processo de elaboração de um produto conteúdo digital, estando, portanto, comprometidos com a qualidade do mesmo. É importante que, sempre que se for avaliar a usabilidade de um produto que tenha conteúdo digital, os consumidores apliquem o mesmo rigor com que avaliam os demais produtos que consomem. Além disso, deve-se considerar a acessibilidade como parte indissociável da aferição da eficiência e eficácia do produto conteúdo digital e, para que isso ocorra, quando a avaliação do produto não for explícita quanto a esse requisito, faz-se necessário que os consumidores incluam a avaliação do requisito acessibilidade, quando expressam seu nível de satisfação com algum produto que tenha conteúdo digital.
 
+% participação do consumidor e avaliação
 A participação do consumidor na etapa de avaliação, indispensável para o aperfeiçoamento do produto, faz com que ele seja também responsável, juntamente com os profissionais da equipe de produção, pelo fato de esse conteúdo digital específico possa estar inacessível a muitas pessoas, por não contemplar critérios de usabilidade e de acessibilidade \cite{Torres2004}.
 
-A temática tratada nesta monografia favorece a realização de novos projetos relacionados ao acesso digital universal, estimula organizações a investir em acessibilidade e contribui para a conscientização da importância da inclusão digital de todos. Além disso, do ponto de vista do mundo ágil, o presente trabalho destaca o quão importante pode ser a participação do próprio deficiente no desenvolvimento de software utilizando metodologias ágeis, as quais pregam o envolvimento contínuo do cliente.
-
-% participacao do cliente
-Como todos os métodos ágeis são baseados em pequenas versões, a validação é executada fortemente \cite{Costa2011}. Pelo menos em cada nova versão, é possível obter feedback. Os clientes podem usar o software, ter uma experiência de como o sistema funciona em detalhes e quais funcionalidades já foram desenvolvidas. Se houver questionamentos, pode-se responder imediatamente. Eles podem discutir o modo como os recursos foram aplicados e pedir mudanças no projeto. E ainda é possível observar as forças, fraquezas, as vantagens e os limites do projeto e da tecnologia. Os cliente podem verificar se os requisitos desenvolvidos foram entendidos e, consequentemente, se foram desenvolvidos corretamente. Ademais, eles podem executar testes de aceitação para validar se o sistema reage da maneira esperada e, se não, esclarecer o problema. As perguntas e os pedidos de mudança influenciam diretamente o desenvolvimento posterior. Dependendo das circunstâncias do método e do projeto, o software é colocado em produção após 
+% metodos ageis, validação e cliente
+Como todos os métodos ágeis são baseados em pequenas versões, a validação é executada fortemente \cite{Costa2011}. Pelo menos em cada nova versão, é possível obter feedback. Os clientes podem usar o software, ter uma experiência de como o sistema funciona em detalhes e quais funcionalidades já foram desenvolvidas. Se houver questionamentos, pode-se responder imediatamente. Eles podem discutir o modo como os recursos foram aplicados e pedir mudanças no projeto. E ainda é possível observar as forças, fraquezas, as vantagens e os limites do projeto e da tecnologia. Os clientes podem verificar se os requisitos desenvolvidos foram entendidos e, consequentemente, se foram desenvolvidos corretamente. Ademais, eles podem executar testes de aceitação para validar se o sistema reage da maneira esperada e, se não, esclarecer o problema. As perguntas e os pedidos de mudança influenciam diretamente o desenvolvimento posterior. Dependendo das circunstâncias do método e do projeto, o software é colocado em produção após 
 cada revisão. 
 
+% metodos ageis e acessibilidade
 As metodologias ágeis já consolidades e a necessidade de prover acessibilidade digital permitem uma associação entre uma realidade sólida e uma aspiração viável. 
 
+% tematica, contribuicao
+A temática tratada nesta monografia favorece a realização de novos projetos relacionados ao acesso digital universal, estimula organizações a investir em acessibilidade e contribui para a conscientização da importância da inclusão digital de todos. Além disso, do ponto de vista do mundo ágil, o presente trabalho destaca o quão importante pode ser a participação do próprio deficiente no desenvolvimento de software utilizando metodologias ágeis, as quais pregam o envolvimento contínuo do cliente.
 
