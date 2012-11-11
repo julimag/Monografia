@@ -2,36 +2,49 @@
 
 \vspace{1cm}
 
-\center \normalsize{\textbf{Um Estudo sobre a Importância do Cliente no Desenvolvimento Ágil de Software com Acessibilidade}}
+\center \textbf{\MakeTextUppercase{Um Estudo sobre a Importância da Participação do Usuário com Deficiência no Desenvolvimento Ágil de Software com Acessibilidade}}
 \vspace{0.5cm}
-\center \normalsize{Juliana Feitosa Magalhães\\  }
 
-\vspace{2cm}
+\begin{flushright}
+  \begin{minipage}{100mm}
+  \quotefonti %
+Monografia apresentada ao Programa de Pós-graduação do Curso de Especialização em Desenvolvimento Ágil de Software da Faculdade 7 de Setembro como requisito parcial para obtenção do grau de Especilista em Desenvolvimento Ágil de Software.
+  \vskip2\baselineskip
+  \end{minipage}
+\end{flushright}
 
-Monografia submetida a Coordenação do Curso de Especiliazação em Desenvolvimento Ágil de Software da Faculdade 7 de Setembro como requisito parcial para a obtenção do grau de Especilista em Desenvolvimento Ágil de Software.
-
-\vspace{1.5cm}
-
-\vspace{1.5cm}
-
-\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
-\center {Prof. Me. Albert Schilling Gomes}
-\vspace{-0.3cm}
-\center {Faculdade 7 de Setembro}
-\vspace{-0.3cm}
 \vspace{1.5cm}
 
 \underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
-\center {Prof. Me. Ciro Carneiro Coelho}
+\center \normalsize{Juliana Feitosa Magalhães}
 \vspace{-0.3cm}
-\center {Faculdade 7 de Setembro}
+\vspace{1.5cm}
+
+\begin{flushleft}
+\normalsize{Monografia aprovada em: }
+\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ } /
+\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ } /
+\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
+\vspace{-0.3cm}
+\vspace{1.5cm} 
+\end{flushleft}
+
+\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
+\center {Prof. Me. Albert Schilling Gomes (FA7)}
+\vspace{-0.3cm}
+\center {Orientador}
 \vspace{-0.3cm}
 \vspace{1.5cm}
 
 \underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
-\center {Prof. Me. Ari do Amaral Torres Filho}
+\center \normalsize{Prof. Me. Ari do Amaral Torres Filho (FA7)}
 \vspace{-0.3cm}
-\center {Faculdade 7 de Setembro}
+\vspace{1.5cm}
+
+\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }\underline{ }
+\center \normalsize{Prof. Me. Ciro Carneiro Coelho (FA7)}
+\vspace{-0.3cm}
+\center {Coordenador do Curso}
 \vspace{-0.3cm}
 \vspace{1.5cm}
 

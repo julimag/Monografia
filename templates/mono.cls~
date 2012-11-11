@@ -1,28 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% ufpehesis.cls
-%%% UFPE Thesis/Dissertation document class
-%%% (C) 2003--2005 Paulo Gustavo Soares Fonseca
+%%% mono.cls
+%%% FA7 Monograph document class
+%%% (C) 2012 Juliana Magalhes
 %%% THIS FILE COMES WITH NO WARRANTIES
 %%% PERMISSION TO COPY AND REDISTRIBUTE FREE OF CHARGE
 %%% FOR ACADEMIC PURPOSES ONLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%    Author              = "Paulo G. S. Fonseca",
-%%%    Version             = "0.9.2",
-%%%    Date                = "29 Jan 2006",
-%%%    Filename            = "ufpethesis.cls",
-%%%    Address             = "Universidade Federal de Pernambuco
-%%%                           Centro de Informática",
-%%%    Telephone           = "+55 81 2126-8430",
-%%%    Email               = "paguso@cin.ufpe.br",
-%%%    Keywords            = "LaTeX, Thesis, Dissertation",
+%%%    Author              = "Juliana Magalhaes",
+%%%    Version             = "0.1",
+%%%    Date                = "Nov 2012",
+%%%    Filename            = "mono.cls",
+%%%    Address             = "Faculdade 7 de Setembro",
+%%%    Keywords            = "LaTeX, Thesis, Dissertation, Monograph",
 %%%    Abstract            = "LaTeX document-style for typesetting of
-%%%                           Monographs, Theses and Dissertations at the
-%%%                           Federal University of Pernambuco - Brazil"
+%%%                           Monographs, Theses and Dissertations"
 %%%    SeeAlso             = "book.sty",
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesClass{./templates/ufpethesis}[2006/29/01]
-\input{./templates/aboutufpethesis.txt}
+\ProvidesClass{./templates/mono}[2012/01/11]
+\input{./templates/aboutmono.txt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% OPTIONS 
@@ -75,7 +71,7 @@
 }
 
 % Default options
-\ExecuteOptions{pt,qual,std,print} % Escolha da formatação desejada
+\ExecuteOptions{en,qual,std,print} % Escolha da formatação desejada
 \ProcessOptions
 
 \LoadClass[12pt,a4paper]{book}
@@ -142,7 +138,7 @@
 \gdef\@phdqualifyingdegree{Especialista}
 \gdef\@phddegree{Doutor}
 \gdef\@presentationtext{%
-Trabalho apresentado ao Programa de
+Monografia apresentada ao Programa de
 \@program\ do \if\@showdepartment1\@department\ \else\@institute\ \fi
 da \@university\ como requisito parcial para obtenção do
 grau de \@degree\ em \@majorfield.}
@@ -174,8 +170,8 @@ grau de \@degree\ em \@majorfield.}
   \gdef\@pagename{página}
   \gdef\@colophontext{%
   \urlstyle{rm}%
-  Este volume foi tipografado em \LaTeX\ na classe \textsf{UFPEThesis}
-  (\url{www.cin.ufpe.br/~paguso/ufpethesis}).
+  Este volume foi tipografado em \LaTeX\ na classe \textsf{FA7Mono}
+  (\url{www.fa7.edu.br}).
   \if\@scr1
   Para detalhes sobre este documento, clique \Acrobatmenu{GeneralInfo}{aqui}.
   \fi}
@@ -200,8 +196,8 @@ grau de \@degree\ em \@majorfield.}
   \gdef\@pagename{page}
   \gdef\@colophontext{%
   \urlstyle{rm}%
-  This volume has been typeset in \LaTeX with the \textsf{UFPEThesis} class
-  (\url{www.cin.ufpe.br/~paguso/ufpethesis}).
+  This volume has been typeset in \LaTeX with the \textsf{FA7Mono} class
+  (\url{www.fa7.edu.br}).
   \if\@scr1
   For details about this document, click \Acrobatmenu{GeneralInfo}{here}. 
   \fi}
@@ -216,7 +212,7 @@ grau de \@degree\ em \@majorfield.}
 
 \def\university#1{%
   \gdef\@university{#1}}
-\def\@university{Universidade Federal de Pernambuco}
+\def\@university{Faculdade 7 de Setembro - FA7}
 
 \def\universitylogo{./templates/logo.tex}
 
@@ -240,7 +236,7 @@ grau de \@degree\ em \@majorfield.}
 
 \def\address#1{%
   \gdef\@address{#1}}
-\def\@address{Recife}
+\def\@address{Fortaleza}
 
 %% Authors identification
 
@@ -349,24 +345,16 @@ grau de \@degree\ em \@majorfield.}
   \begin{center}
   \input\universitylogo
   \sf\large
-  \\\@university
-  \if\@showinstitute1\\\@institute\fi
+  \\\textbf{\MakeTextUppercase{\@university}}
+  \if\@showinstitute1\\\textbf{\MakeTextUppercase{\@institute}}\fi
   \if\@showdepartment1\\\@department\fi
   \vskip 25mm
-  \@program
-  \vskip 45mm
-  \begin{minipage}{110mm}
-    \begin{center}
-      \textbf{\MakeTextUppercase{\@title}}
-      \vskip\baselineskip
-      \@author
-      \vskip\baselineskip
-      \MakeTextUppercase{\@texttype}
-    \end{center}
-  \end{minipage}\\
+  \vskip\baselineskip
+  \@author
+  \vskip\baselineskip
+  \textbf{\MakeTextUppercase{\@title}}
   \vfill
-  \@address\\
-  \@date
+  \@address - \@date
   \end{center}
 }
 
@@ -380,28 +368,26 @@ grau de \@degree\ em \@majorfield.}
   \thispagestyle{empty}
   \begin{center}
   \sf\large
-  \@university
-  \if\@showinstitute1\\\@institute\fi
-  \if\@showdepartment1\\\@department\fi
-  \vskip 25mm
   \@author
+  \vskip 45mm
   \vskip\baselineskip
   \textbf{\MakeTextUppercase{\@title}}
-  \vskip 58mm
+  \vskip 28mm
   \begin{flushright}
     \begin{minipage}{100mm}
     \quotefonti %
     \@presentationtext
-    \vskip2\baselineskip
-    {\quotefont \@advisertitle:} \@adviser
-    \if\@showcoadviser1
-      \\ {\quotefont\@coadvisertitle:} \@coadviser
-    \fi
+    \vskip\baselineskip
+    \begin{flushright}
+      {\quotefont \@advisertitle:} \@adviser
+      \if\@showcoadviser1
+	\\ {\quotefont\@coadvisertitle:} \@coadviser
+      \fi
+    \end{flushright}
     \end{minipage}
   \end{flushright}
   \vfill
-  \@address\\
-  \@date
+  \@address - \@date
   \end{center}
 }
 
