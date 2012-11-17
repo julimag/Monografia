@@ -15,9 +15,9 @@
 \usepackage[brazil]{babel}
 
 % força o LaTeX a usar fontes do tipo T1. Isso é necessário para que os caracteres acentuados possam ser considerados como um bloco só, e o LaTeX possa hifenizá-los: caso contrário palavras acentuadas não serão hifenizadas.
-%\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
 % precisa ser carregado por causa de um efeito colateral do pacote T1: se você gerar PDFs a partir do arquivo tex as fontes vão ficar terríveis. Caso você não vá gerar PDFs então ele não precisa ser acrescentado.
-% \usepackage{ae}
+\usepackage{ae}
 
 \usepackage[round,authoryear]{natbib} %citacoes com parenteses
 
@@ -60,8 +60,8 @@
 \institute{Curso de Especialização em Desenvolvimento Ágil de Software}
 \program{Pós-graduação}
 \majorfield{Desenvolvimento Ágil de Software}
-
-\title{Um Estudo sobre a Importância da Participação do Usuário com Deficiência no Desenvolvimento Ágil de Software com Acessibilidade}
+%Um Estudo sobre a Importância da Participação do Usuário com Deficiência no Desenvolvimento Ágil de Software com Acessibilidade
+\title{Um Estudo sobre a Importância do Desenvolvimento Ágil nos Projetos com Acessibilidade}
 \date{2012}
 \author{JULIANA FEITOSA MAGALHÃES}
 \adviser{Prof. Albert Schilling Gomes, Me.}
@@ -169,6 +169,7 @@ Aos meus pais, Olívio e Junília
 % Author-date citations: natbib ... abnt-alf, apalike, apsrev, rmpaps, IEEEtranN, achemso, rsc, authordate1, jas99, chigago, named, newapa, agsm, dcu, kluwer
 % apa, astron, bbs, humanbio, humannat, jtb, jtbnew, aaai-named
 % Autor maiuscula: cbe, authordate3, authordate4
+% para aparecer as urls = apagar arquivos temporarios, executar primeiro cbe, depois abnt-alf
 \bibliographystyle{cbe} %estilo (ordenado por [nome_autor] ou [numero])
 \addcontentsline{toc}{chapter}{Referências Bibliográficas}
 \bibliography{monografia}

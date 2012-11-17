@@ -7,15 +7,15 @@
 \section{Metodologias de Desenvolvimento}
 %===================================================================
 
-Metodologia de desenvolvimento é um conjunto de práticas recomendadas para o desenvolvimento de softwares, sendo que essas práticas, geralmente, passam por fases ou passos, que são subdivisões do processo para ordená-lo e melhor gerenciá-lo \citep{Sommerville2007}.
+Metodologia é uma forma de se utilizar um conjunto coerente de métodos para atingir um objetivo, de modo que se evite, quando possível, a subjetividade na execução do trabalho. \citet{Sommerville2007} define metodologia de desenvolvimento como um conjunto de práticas recomendadas para o desenvolvimento de softwares, as quais, geralmente, passam por fases ou passos, que são subdivisões do processo para ordená-lo e melhor gerenciá-lo.
 
 %===================================================================
 \subsection{Desenvolvimento Tradicional}
 %===================================================================
 
-As metodologias tradicionais são também chamadas de pesadas ou orientadas a documentação. Essas metodologias surgiram em um contexto de desenvolvimento de software muito diferente do atual, baseado apenas em um mainframe e terminais ``burros'' \citep{Royce1987}. Na época, o custo de fazer alterações e correções era muito alto, uma vez que o acesso aos computadores era limitado e não existiam ferramentas modernas de apoio ao desenvolvimento do software, como depuradores e analisadores de código. Por isso, o software era todo planejado e documentado antes de ser implementado. A principal metodologia tradicional e muito utilizada até hoje é o modelo clássico \citep{Soares2004}.
-
-O modelo clássico ou cascata caracteriza-se pelo seu caráter preditivo, prescritivo, sequencial, burocrático, rigoroso, orientado a processos e dados, formais e controlado, que tem o sucesso alcançado desde que esteja em conformidade com o que foi planejado \citep{Mainart2010}.
+As metodologias tradicionais, também chamadas de pesadas ou orientadas a documentação, surgiram em um contexto de desenvolvimento de software muito diferente do atual. Segundo \citet{Royce1987}, era baseado em mainframes e terminais ``burros''. O acesso limitado aos computadores tornava o custo de alterações e correções muito alto, além de não existirem ferramentas de apoio ao desenvolvimento do software, como depuradores e analisadores de código. De acordo com \citep{Soares2004}, por conta desses obstáculos da época, o software era todo planejado e documentado antes da implementação. A principal metodologia tradicional e muito utilizada até hoje é o modelo clássico .
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+``O modelo clássico ou cascata caracteriza-se pelo seu caráter preditivo, prescritivo, sequencial, burocrático, rigoroso, orientado a processos e dados, formais e controlado, que tem o sucesso alcançado desde que esteja em conformidade com o que foi planejado.'' \citep{Mainart2010}
 
 De uma forma geral, as etapas do modelo clássico são: definição de requisitos, projeto do software, implementação e teste unitário, integração e teste do sistema, operação e manutenção. Esta divisão em etapas distintas e certa inflexibilidade dificulta possíveis alterações, comuns no desenvolvimento de projetos. Por esse motivo, seu uso é recomendável apenas em situações em que os requisitos são estáveis e os requisitos futuros são previsíveis. Além disso, quando todas as exigências são conhecidas antes do início da fase de desenvolvimento, é mais fácil definir cronogramas, determinar os custos do projeto e alocar recursos.
 
@@ -25,25 +25,25 @@ De uma forma geral, as etapas do modelo clássico são: definição de requisitos, p
 
 Em 2001, um grupo de dezessete profissionais veteranos da área de software se reuniu para discutir sobre seus trabalhos e os métodos utilizados. Embora cada um deles tivesse suas próprias práticas e teorias de como fazer um projeto de software ter sucesso, cada qual com as suas particularidades, eles imaginavam haver um subconjunto de princípios comum. 
 
-A partir do reconhecimento dos aspectos similares, eles criaram o Manifesto para o Desenvolvimento Ágil de Software \citep{Manifesto2001}, frequentemente chamado apenas de Manifesto Ágil, e o termo Desenvolvimento Ágil passou a descrever abordagens de desenvolvimento que seguissem os tais princípios.
+A partir do reconhecimento dos aspectos similares, \citet{Manifesto2001} criaram o Manifesto para o Desenvolvimento Ágil de Software, frequentemente chamado apenas de Manifesto Ágil, e o termo Desenvolvimento Ágil passou a descrever abordagens de desenvolvimento que seguissem os tais princípios.
 
 O manifesto é composto de quatro valores e doze princípios, os quais descrevem a essência de um conjunto de abordagens para desenvolvimento ágil de software. 
 
-Os valores são \citep{Manifesto2001}: 
+Os valores são \citep{Manifesto}: 
 
 \begin{enumerate}
- \item Indivíduos e interações mais que processos e ferramentas;
- \item Software executável mais que documentação;
- \item Colaboração do cliente mais que negociação de contratos;
- \item Respostas rápidas a mudanças mais que seguir planos.
+ \item Indivíduos e interação entre eles mais que processos e ferramentas;
+ \item Software em funcionamento mais que documentação abrangente;
+ \item Colaboração com o cliente mais que negociação de contratos;
+ \item Responder a mudanças mais que seguir um plano.
 \end{enumerate}
 
-E os princípios são \citep{Manifesto2001}:
+E os princípios são \citep{Manifesto}:
 
 \begin{enumerate}
  \item Nossa maior prioridade é satisfazer o cliente, através da entrega adiantada e contínua de software de valor;
  \item Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas;
- \item Entregar software funcionando com frequencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
+ \item Entregar software funcionando com freqüencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
  \item Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto;
  \item Construir projetos ao redor de indivíduos motivados. Dando a eles o ambiente e suporte necessário, e confiar que farão seu trabalho;
  \item O método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara;
@@ -55,65 +55,73 @@ E os princípios são \citep{Manifesto2001}:
  \item Em intervalos regulares, o time reflete em como ficar mais efetivo, então, se ajustam e otimizam seu comportamento de acordo.
 \end{enumerate}
 
-
 O manifesto reconhece a importância de determinados conceitos como processos, ferramentas, documentação, contratos e planos no desenvolvimento de software, mas identifica aspectos ainda mais importantes a serem valorizados.
 
 %===================================================================
 \section{Design Universal e Design Acessível}
 %===================================================================
 
-O conceito de design universal é diferente do conceito de design acessível. O design acessível diz respeito aos produtos e construções acessíveis e utilizáveis por pessoas com deficiências. O design universal diz respeito aos produtos e construções acessíveis e utilizáveis por todos os indivíduos, independentemente de possuírem ou não deficiências. Apesar das definições aparentarem ter apenas diferenças semânticas, na realidade significam muito mais do que isto. Os designs acessíveis têm uma tendência a separar as facilidades oferecidas para as pessoas com deficiências, das oferecidas às demais pessoas, como rampas de acesso ao lado de escadas ou toaletes diferentes para cadeirantes. O design universal, por outro lado, tem como objetivo proporcionar soluções que possam acomodar pessoas com ou sem deficiências e beneficiar pessoas de todas as idades e capacidades, sem discriminações \citep{Carvalho2003}.
+O conceito de design universal difere do conceito de design acessível. 
 
-O design universal pressupõe a acessibilidade física e a acessibilidade virtual (ou digital), sendo a primeira a garantia de mobilidade e usabilidade para qualquer pessoa em todos os espaços, e a segunda a garantia de mobilidade e usabilidade de recursos computacionais \citep{Saci}.
+\begin{quote} O design acessível refere-se aos produtos e construções acessíveis e utilizáveis por pessoas com deficiências, enquanto o design universal diz respeito aos produtos e construções acessíveis e utilizáveis por todos os indivíduos, independentemente de possuírem ou não deficiências. \citep{Carvalho2003} \end{quote}
+ 
+Apesar das definições aparentarem ter apenas diferenças semânticas, na realidade significam muito mais do que isto. \citet{Carvalho2003} explica que os designs acessíveis têm uma tendência a separar as facilidades oferecidas para as pessoas com deficiências, das oferecidas às demais pessoas (por exemplo, rampas de acesso ao lado de escadas ou toaletes diferentes para cadeirantes). Enquanto o design universal, por outro lado, tem como objetivo proporcionar soluções para acomodar pessoas com ou sem deficiências e beneficiar todas as idades e capacidades, sem discriminações.
+
+Conforme \citet{Saci}, o design universal pressupõe a acessibilidade física e a acessibilidade virtual (ou digital), sendo a primeira a garantia de mobilidade e usabilidade para qualquer pessoa em todos os espaços, e a segunda a garantia de mobilidade e usabilidade de recursos computacionais.
 
 %===================================================================
 \section{Acessibilidade e Usabilidade Digitais}
 %===================================================================
 
-Acessibilidade é o termo geral usado para indicar a possibilidade de qualquer pessoa usufruir todos os benefícios de uma vida em sociedade, entre eles, o uso da Internet; essa definição, proposta inclusive pela Associação Brasileira de Normas Técnicas, apesar de forte impacto, é fundamental, pois acessibilidade só existe quando todos conseguem acessar esses benefícios \citep{Nunes2008}.
+Acessibilidade é uma palavra bastante comum hoje em dia para tratar do acesso de pessoas tanto no espaço físico como no espaço digital. Se em sua origem, essa palavra esteve tradicionalmente preocupada com o acesso ao ambiente físico, o advento da sociedade da informação viu o conceito dela evoluir de modo a levar em consideração as novas realidades.
 
-A usabilidade é a característica que determina se o manuseio de um produto é fácil e rapidamente aprendido, dificilmente esquecido, não provoca erros operacionais, oferece um alto grau de satisfação para seus usuários e, eficientemente resolve as tarefas para as quais ele foi projetado. Uma aplicação orientada à usabilidade não necessariamente é orientada à acessibilidade, e vice-versa. Ou seja, ela pode ser de fácil uso para usuários comuns, mas inacessível para os com necessidades especiais \citep{Nunes2008}.
+\begin{quote} \small Acessibilidade é o termo geral usado para indicar a possibilidade de qualquer pessoa usufruir todos os benefícios de uma vida em sociedade, entre eles, o uso da internet; essa definição, proposta inclusive pela Associação Brasileira de Normas Técnicas, apesar de forte impacto, é fundamental, pois acessibilidade só existe quando todos conseguem acessar esses benefícios \citep{Nunes2008}. \end{quote}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
-Por vezes, os conceitos de acessibilidade e usabilidade se confundem. Enquanto a usabilidade volta-se mais para as expectativas e para a capacidade do usuário em entender e perceber as estratégias de utilização do software, a acessibilidade está voltada para as condições de uso, como o usuário se apresenta frente às interfaces interativas, como essa troca deve acontecer, e, principalmente, como se dará o acesso do usuário às informações disponíveis \citep{Passerino2007}.
+Usabilidade é sinônimo de facilidade de uso, portanto, é uma medida relativa. ``O mouse é fácil de usar, mas para quem?'' Sempre que houver uma interface, ou seja, um ponto de contato entre um ser humano e um objeto físico (por exemplo, uma cafeteira) ou abstrato (por exemplo, software), podemos observar a usabilidade que esse objeto oferece.
+
+\begin{quote} A usabilidade é a característica que determina se o manuseio de um produto é fácil e rapidamente aprendido, dificilmente esquecido, não provoca erros operacionais, oferece um alto grau de satisfação para seus usuários e, eficientemente resolve as tarefas para as quais ele foi projetado. Uma aplicação orientada à usabilidade não necessariamente é orientada à acessibilidade, e vice-versa. Ou seja, ela pode ser de fácil uso para usuários comuns, mas inacessível para os com necessidades especiais \citep{Nunes2008}. \end{quote}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+\citet[p.~14]{Passerino2007} observam que os conceitos de acessibilidade e usabilidade costumam ser confundidos. E os mesmos autores destacam que enquanto a usabilidade refere-se mais às expectativas e à capacidade do usuário em entender e perceber as estratégias de utilização do software; a acessibilidade refere-se às condições de uso, como o usuário se comporta diante das interfaces, como essa troca deve acontecer, e, principalmente, como se dará o seu acesso às informações disponíveis.
 
 Ser acessível é permitir o uso. O fato de estar visível e ser perceptível não garante a condição assistiva à interface, mas sim, quando ela considera as necessidades especiais de cada sujeito e cumpre esse requisito. 
 
-A acessibilidade mede-se em termos de flexibilidade do produto para atender às necessidades e preferências do maior número de pessoas. Mas isso não é suficiente, ele também deve ser compatível com tecnologias assistivas ao viabilizar sua própria adaptabilidade de acordo com as necessidades e demandas dos usuários, independente do grau, nível ou intensidade de sua necessidade \citep{Passerino2007}.
+Segundo \citet[p.~14]{Passerino2007}, ``A acessibilidade mede-se em termos de flexibilidade do produto para atender às necessidades e preferências do maior número de pessoas.'' Também deve ser compatível com tecnologias assistivas ao viabilizar sua adaptabilidade de acordo com a demanda dos usuários, independente do grau, nível ou intensidade de suas necessidades.
 
 Acessibilidade e usabilidade são alguns dos conceitos que norteiam a qualidade de uso dos sistemas.
 
-Entende-se por acessibilidade à rede, a possibilidade de qualquer indivíduo, utilizando qualquer tipo de tecnologia de navegação (navegadores gráficos, textuais, especiais para cegos ou para sistemas de computação móvel), poder visitar qualquer site e obter um total e completo entendimento da informação contida nele, além de ter total e completa habilidade de interação. A acessibilidade das páginas web depende da interação de três elementos, quais sejam: os sistemas de acesso ao computador (ajudas técnicas), os navegadores utilizados e o desenho das páginas que compõem os sites web \citep{Sonza2008}.
+De acordo com \citet{Sonza2008}, entende-se por acessibilidade à rede a possibilidade de qualquer indivíduo poder visitar qualquer site e obter um total e completo entendimento da informação contida nele, além de ter total e completa habilidade de interação. Tal possibilidade deve ocorrer independente da tecnologia de navegação, seja utilizando navegadores gráficos, textuais, especiais para cegos ou sistemas de computação móvel. \citet{Sonza2008} menciona o fato da acessibilidade das páginas web depender da interação de três elementos, quais sejam: os sistemas de acesso ao computador (ajudas técnicas), os navegadores utilizados e o desenho das páginas que compõem os sites web.
 
-O conceito de qualidade de uso mais amplamente utilizado é o da usabilidade. Tal conceito está relacionado à facilidade e eficiência de aprendizado e de uso, bem como, à satisfação do usuário. Quando tratamos de usabilidade, há basicamente duas abordagens fundamentais ao design de ambientes: o ideal artístico e o ideal de engenharia. Embora a arte seja importante, o principal objetivo da maioria dos projetos da web deve ser o de facilitar aos usuários o desempenho de tarefas úteis \citep{Sonza2008}.
+Um produto de qualidade é aquele que satisfaz as necessidades de seus usuários. O conceito de qualidade de uso mais amplamente utilizado é o da usabilidade. Tal conceito está relacionado à facilidade e eficiência de aprendizado e de uso, bem como, à satisfação do usuário. Conforme \citet{Sonza2008}, há basicamente duas abordagens fundamentais ao design de ambientes no que se refere à usabilidade: o ideal artístico e o ideal de engenharia. Embora a arte seja importante, o principal objetivo da maioria dos projetos da web deve ser o de facilitar aos usuários o desempenho de tarefas úteis.
 
-Um conceito que começa a ser utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual ao mencionar a importância não apenas de se aplicar as recomendações do W3C \citep{W3C2001}, mas também de tornar os ambientes fáceis de usar para todos, ou seja: aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis \citep{Sonza2008}.
+Um conceito utilizado na atualidade é o da usabilidade aplicada à acessibilidade. Tal prática amplia o entendimento de acessibilidade virtual, pois menciona a importância não apenas de se aplicar as recomendações do W3C \citep{W3C2001}, mas também de tornar os ambientes fáceis de usar para todos. Ou seja, aplicar usabilidade nos sites para torná-los verdadeiramente acessíveis.
 
 %===================================================================
 \section{Tecnologia Assistiva Digital}
 %===================================================================
 
-Tecnologia Assistiva (TA) refere-se ao conjunto de artefatos disponibilizados às pessoas com necessidades especiais, que contribuem para prover-lhes uma vida mais independente, com mais qualidade e possibilidades de inclusão social \citep{Sonza2008}.
+\begin{quote} Tecnologia Assistiva (TA) refere-se ao conjunto de artefatos disponibilizados às pessoas com necessidades especiais, que contribuem para prover-lhes uma vida mais independente, com mais qualidade e possibilidades de inclusão social \citep{Sonza2008}. \end{quote}
 
 A tecnologia assistiva digital refere-se aos sistemas que oferecem soluções para tentar suprir as limitações de uma parcela da sociedade. Essas limitações podem ser motoras, visuais, auditivas, entre outras.
 
-As tecnologias da informação (hardware e software) são muitas vezes projetadas sem considerar a diversidade de acesso dos vários utilizadores. De fato, muitas pessoas apresentam dificuldades de utilização do teclado, do mouse, do monitor/tela, seja devido a tetraplegia, problemas no controle efetivo das mãos, perda dos membros superiores, paralisia cerebral, cegueira ou baixa visão. Assim, ao projetar sistemas de informação, deve-se prever uma série de possibilidades/alternativas de acesso (ao nível de hardware e de software), contemplando a acessibilidade motora, a acessibilidade auditiva, a acessibilidade visual e a acessibilidade cognitiva \citep{Correia2005}.
+As tecnologias da informação (hardware e software) são muitas vezes projetadas sem considerar a diversidade de acesso dos vários utilizadores. De fato, conforme observado por \citet{Correia2005}, muitas pessoas apresentam dificuldades de utilização do teclado, do mouse, do monitor/tela, seja devido a tetraplegia, problemas no controle efetivo das mãos, perda dos membros superiores, paralisia cerebral, cegueira ou baixa visão. 
 
-Atualmente os próprios sistemas operacionais, inclusive àqueles para dispositivos móveis, possuem recursos de acessibilidade embutidos no próprio software.
+Ao projetar sistemas de informação, é preciso prever uma série de possibilidades/alternativas de acesso (ao nível de hardware e de software), para contemplar a acessibilidade motora, a acessibilidade auditiva, a acessibilidade visual e a acessibilidade cognitiva.
 
-As interfaces com o usuário devem poder ser acessadas por qualquer pessoa, independentemente de suas capacidades físico-motoras e perceptivas, culturais e
-sociais \citep{Nunes2008}.
+Atualmente diversos sistemas operacionais, inclusive àqueles para dispositivos móveis, possuem recursos de acessibilidade embutidos no próprio software.
+
+É necessário que as interfaces com o usuário possam ser acessadas por qualquer pessoa, independentemente de suas capacidades físico-motoras e perceptivas, culturais e sociais.
 
 %===================================================================
 \section{Testes de Acessibilidade e Usabilidade}
 %===================================================================
 
-A verificação de acessibilidade de sites é feita através de programas que detectam o código e analisam seu conteúdo, verificando se está dentro do conjunto das regras; no final, geram uma lista dos problemas que devem ser corrigidos para que o site seja considerado acessível. Destacam-se: WebXact, o Hera e o brasileiro daSilva \citep{Nunes2008}.
+A verificação e validação dos principais critérios de acessibilidade permitem aprimorar as funcionalidades do sistema e proporcionar uma melhor experiência de acesso ao usuário com deficiência. A verificação de acessibilidade de sites pode ser feita através de programas. Tais programas detectam o código, analisam seu conteúdo, averiguam se atende o conjunto das regras, e no final, geram uma lista dos problemas a serem corrigidos para que o site seja considerado acessível. Dentre esses programas, destacam-se: WebXact, o Hera e o brasileiro daSilva.
 
-Contudo, é importante ressaltar que pessoas com necessidades especiais desenvolvem habilidades específicas. Por exemplo, deficientes visuais usam as combinações das teclas de tal forma que uma pessoa com visão não conseguiria simular. Logo, para se obter um site de acesso universal orientado à usabilidade, além de verificá-lo através de programas avaliadores, é fundamental que se considerem as dificuldades e habilidades dos usuários, pois estas norteiam o modelo mental de suas interações e, ao serem consideradas, contribuem para tornar a interação do deficiente harmoniosa \citep{Nunes2008}.
+É importante ressaltar que pessoas com necessidades especiais desenvolvem habilidades específicas. Por exemplo, deficientes visuais usam as combinações das teclas de tal forma que uma pessoa com visão não conseguiria simular. Diante disso, \citet{Nunes2008} constatou que para obter um site de acesso universal orientado à usabilidade, além de verificá-lo através de programas avaliadores, é fundamental considerar as dificuldades e habilidades dos usuários, pois estas norteiam o modelo mental de suas interações e, ao serem consideradas, contribuem para tornar a interação do deficiente harmoniosa.
 
-Com relação à acessibilidade, os problemas de usabilidade, em geral ocorrem por três motivos: muito foco na conformidade com as diretrizes de acessibilidade e não na usabilidade; muitos programas avaliadores dependem somente de técnicas de verificação sintática dos sites para detectar a acessibilidade e, com isso, os erros detectáveis se limitam à camada de descrição de tags (etiquetas) e não consideram aspectos de usabilidade; por fim, os avaliadores de acessibilidade desconsideram o fato que raramente os usuários escutam a saída falada de forma passiva. Eles se movimentam pelas páginas usando combinações de teclas e, através desse processo, criam seus modelos mentais \citep{Nunes2008}.
+De acordo com \citet{Nunes2008}, com relação à acessibilidade, os problemas de usabilidade, em geral ocorrem por três motivos: muito foco na conformidade com as diretrizes de acessibilidade e não na usabilidade; muitos programas avaliadores dependem somente de técnicas de verificação sintática dos sites para detectar a acessibilidade e, com isso, os erros detectáveis se limitam à camada de descrição de tags (etiquetas) e não consideram aspectos de usabilidade; por fim, os avaliadores de acessibilidade desconsideram o fato que raramente os usuários escutam a saída falada de forma passiva. Eles se movimentam pelas páginas usando combinações de teclas e, através desse processo, criam seus modelos mentais.
 
-Não é possível projetar todos os produtos para que sejam utilizados por todas as pessoas, pois sempre haverá alguém com uma combinação de graves deficiências, que não será capaz de utilizá-los. Sendo assim, um produto não pode ser caracterizado simplesmente como acessível ou não acessível. Produtos são, na verdade, mais ou menos acessíveis, e devem atender (ou, de preferência, exceder) padrões mínimos de acessibilidade fixados por lei ou norma técnica \citep{Sonza2008}.
+\begin{quote} Não é possível projetar todos os produtos para que sejam utilizados por todas as pessoas, pois sempre haverá alguém com uma combinação de graves deficiências, que não será capaz de utilizá-los. Sendo assim, um produto não pode ser caracterizado simplesmente como acessível ou não acessível. Produtos são, na verdade, mais ou menos acessíveis, e devem atender (ou, de preferência, exceder) padrões mínimos de acessibilidade fixados por lei ou norma técnica \citep{Sonza2008}. \end{quote}
 
 Quando tratamos do mundo digital, a acessibilidade pode envolver três grandes áreas \citep{Sonza2008}:
 
@@ -129,7 +137,7 @@ Quando tratamos do mundo digital, a acessibilidade pode envolver três grandes ár
 \section{Diretrizes de Acessibilidade na Web no Mundo e no Brasil}
 %===================================================================
 
-Visando tornar a web acessível a um número cada vez maior de cidadãos, o W3C criou o WAI (Web Acessibility Initiative - Iniciativa para Acessibilidade na Web), com a atribuição de manter grupos de trabalho elaborando conjuntos de diretrizes para garantir a acessibilidade do conteúdo da Internet a pessoas com deficiências, ou para os que acessam a rede em condições especiais de ambiente, equipamento, navegador e outras ferramentas Web. Como produto de trabalho desta iniciativa, em maio de 1999, foi lançada a primeira versão das Diretrizes para a Acessibilidade do Conteúdo da Web (WCAG 1.0) e em 2008, foi lançada a segunda versão deste guia, o WCAG 2.0, sendo, até então, a principal referência em termos de acessibilidade para a Web no mundo \citep{Chalegre2011}.
+Visando tornar a web acessível a um número cada vez maior de cidadãos, o W3C criou o WAI (Web Acessibility Initiative - Iniciativa para Acessibilidade na Web), com a atribuição de manter grupos de trabalho elaborando conjuntos de diretrizes para garantir a acessibilidade do conteúdo da internet a pessoas com deficiências, ou para os que acessam a rede em condições especiais de ambiente, equipamento, navegador e outras ferramentas web. Como produto de trabalho desta iniciativa, em maio de 1999, foi lançada a primeira versão das Diretrizes para a Acessibilidade do Conteúdo da Web (WCAG 1.0) e em 2008, foi lançada a segunda versão deste guia, o WCAG 2.0, sendo, até então, a principal referência em termos de acessibilidade para a web no mundo \citep{Chalegre2011}.
 
 As medidas governamentais internacionais, referentes à acessibilidade na Web, podem ser divididas em três categorias \citep{W3C2001}, quais sejam:
 
