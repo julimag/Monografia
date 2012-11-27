@@ -1,0 +1,473 @@
+\documentclass[smaller]{beamer}
+
+% preambulo para escrever em portugues
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{colortbl} % usar cor em tabela
+
+\setbeamertemplate{navigation symbols}{}
+
+% tema que acompanha os topicos da apresentacao
+\usetheme[secheader]{Madrid} %CambridgeUS(red), Madrid(blue), AnnArbor(blue, yellow)
+%\usetheme[secheader]{Berkeley} %side nav list
+%\setbeamercolor*{palette primary}{fg=white,bg=gray!30!green}
+
+% MACROS
+\newcommand{\univ}{Faculdade 7 de Setembro (FA7)}
+\newcommand{\titulo}{Um Estudo sobre a Importância do Desenvolvimento Ágil nos Projetos com Acessibilidade}
+\newcommand{\tipo}{}
+\newcommand{\autor}{Juliana Feitosa Magalhães}
+\newcommand{\orientador}{Prof. Albert Schilling Gomes, Me.}
+\newcommand{\data}{Fortaleza 2012}
+
+\begin{document}
+
+\title[\tipo]{\titulo}
+\author[\autor]{\autor}
+\institute[FA7]{Orientador: \orientador \\ \univ}
+%\date[\today]{}
+\date[\data]{\data} % para fixar a data de acordo com o macro \data declarado
+
+\frame{\titlepage}
+
+\begin{frame}
+   \frametitle{Sumário}
+   \tableofcontents
+\end{frame}
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \frametitle{Sumário}
+  \tableofcontents[currentsection]
+ \end{frame}
+}
+
+%===============================================================================
+% Introdução
+%===============================================================================
+\section{Introdução}
+
+%===============================================================================
+% Introdução
+%-------------------------------------------------------------------------------
+% Motivação e Caracterização do Problema
+%===============================================================================
+\subsection{Motivação e Problema}
+
+\begin{frame}
+
+   \frametitle{Motivação e Caracterização do Problema}
+
+      \begin{alertblock}{Motivação}
+         \begin{itemize}
+            \item Desenvolver software com sucesso!
+	    \begin{itemize}
+		\item Cumprimento de prazos
+		\item Cumprimento de custos
+		\item Conformidade com anseios do cliente
+		\item Software de qualidade
+		\begin{itemize}
+		    \item Satisfazer as necessidades dos usuários (usuário web pode ser qualquer um!)
+		    \item Proporcionar usabilidade e acessibilidade
+		\end{itemize}
+	    \end{itemize}
+         \end{itemize}	
+      \end{alertblock}
+      \begin{exampleblock}{Caracterização do Problema}
+         \begin{itemize}
+            \item Como desenvolver software COM qualidade e COM acessibilidade?!?
+%	    \item Porque utilizar métodos ágeis no desenvolvimento de software com acessibilidade?
+         \end{itemize}
+      \end{exampleblock}
+
+\end{frame}
+
+%===============================================================================
+% Introdução
+%-------------------------------------------------------------------------------
+% Objetivo e Contribuição
+%===============================================================================
+\subsection{Objetivo e Contribuição}
+
+\begin{frame}
+
+   \frametitle{Objetivo e Contribuição}
+
+      \begin{block}{Objetivo}
+         \begin{itemize}
+            \item Objetivo Geral
+	    \begin{itemize}
+		\item Justificar o uso de metodologias ágeis para o desenvolvimento de software com acessibilidade
+	    \end{itemize}
+            \item Objetivo Específico
+	    \begin{itemize}
+		\item Destacar a importância do usuário deficiente durante o processo
+	    \end{itemize}
+%             \item Demonstrar/comprovar/constatar a ligação satisfatória entre o desenvolvimento ágil e acessibilidade digital
+%             \item destacar a importância da participação do deficiente e/ou alguém conhecedor de suas necessidades no desenvolvimento do software
+         \end{itemize}
+      \end{block}
+
+      \begin{block}{Contribuição}
+         \begin{itemize}
+            \item Minimizar a falta de conhecimento e aumentar as iniciativas na área de acessibilidade digital
+            \item Incentivar a adoção de metodologias ágeis para o desenvolvimento de software acessível
+%             \item Identificar o melhor plano de execução de uma consulta baseado no \textbf{custo de comunicação} entre os sítios participantes
+%             \item Diminuir o custo de comunicação para a completa resolução de uma consulta
+         \end{itemize}
+      \end{block}
+      
+\end{frame}
+
+%===============================================================================
+% Fundamentação Teórica
+%===============================================================================
+\section{Fundamentação Teórica}
+
+%===============================================================================
+% Fundamentação Teórica
+%-------------------------------------------------------------------------------
+% Metodologias de Desenvolvimento
+%===============================================================================
+
+\subsection{}
+
+\begin{frame}
+
+   \frametitle{Metodologias de Desenvolvimento}
+
+      \begin{block}{Desenvolvimento Tradicional X Desenvolvimento Ágil}
+         Destaque para as diferenças de: 
+         \begin{itemize}
+	  \item Atuação das pessoas no processo;
+	  \item Peso / ênfase para a documentação;
+	  \item Como lidar com as mudanças, os prazos.
+         \end{itemize}	
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Fundamentação Teórica
+%-------------------------------------------------------------------------------
+% Design Universal e Design Acessível
+%===============================================================================
+
+\subsection{}
+
+\begin{frame}
+
+   \frametitle{Design Universal, Acessível e Tecnologia Assistiva Digital}
+
+      \begin{block}{Design Acessível}
+         Produtos e construções acessíveis e utilizáveis por pessoas com deficiência
+      \end{block}
+
+      \begin{block}{Design Universal}
+         Produtos e construções acessíveis e utilizáveis por todos os indivíduos, independente de possuírem ou não deficiência. \\ 
+         Proporcionar soluções para acomodar pessoas com ou sem deficiências e beneficiar todas as idades e capacidades, sem discriminações.
+      \end{block}
+      
+      \begin{block}{Tecnologia Assistiva Digital}
+         Refere-se aos sistemas que oferecem soluções para tentar suprir as limitações de uma parcela da sociedade.
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Fundamentação Teórica
+%-------------------------------------------------------------------------------
+% Acessibilidade e Usabilidade Digitais
+%===============================================================================
+
+\subsection{}
+
+\begin{frame}
+
+   \frametitle{Acessibilidade e Usabilidade Digitais}
+
+      \begin{block}{Usabilidade}
+         Característica que determina se o manuseio de um produto é fácil e rapidamente aprendido, dificilmente esquecido, não provoca erros operacionais, 
+         oferece um alto grau de satisfação e resolve eficientemente as tarefas para os quais foi projetado. \\
+	 Usabilidade é sinônimo de facilidade de uso! É algo relativo! (o mouse é fácil de usar, mas para quem?)
+      \end{block}
+
+      \begin{block}{Acessibilidade}
+	Termo para indicar a possibilidade de qualquer pessoa usufruir de todos os benefícios de uma vida em sociedade, inclusive a internet \\
+      \end{block}
+      
+      \begin{block}{Acessibilidade X Usabilidade}
+	Software orientado à usabilidade não é necessariamente orientado à usabilidade!\\
+	O software pode ser fácil para usuário comuns mas inacessível para aqueles com necessidades especiais!\\
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Fundamentação Teórica
+%-------------------------------------------------------------------------------
+% Testes de Acessibilidade e Usabilidade
+%===============================================================================
+
+\subsection{}
+
+\begin{frame}
+
+   \frametitle{Testes e Diretrizes}
+
+      \begin{block}{Testes de Acessibilidade e Usabilidade} 
+	\begin{itemize}
+	\item Verificação: Existem programas para avaliar os critérios de acessibilidade.
+	\item Validação: Deve-se considerar as habilidades específicas; a interação harmoniosa do usuário também é um requisito!
+	\end{itemize}
+      \end{block}
+
+      \begin{block}{Diretrizes de Acessibilidade na Web no Mundo e no Brasil}
+	\begin{itemize}
+	 \item W3C: Criou o WAI (Web Acessibility Initiative)
+	  \begin{itemize}
+	  \item Lançou o WCAG 1.0 e o 2.0 (Diretrizes para a Acessibilidade do Conteúdo da Web)
+	  \end{itemize}
+	  \item Brasil
+	    \begin{itemize}
+	    \item Lei 10.098 (2000) - normas e critérios para acessibilidade
+	    \item Decreto 5.296 (2004) - acessibilidade na internet
+	    \item Comitê Brasileiro (CB) da ABNT - normatização no campo da acessibilidade
+	    \item eMAG - Modelo de Acessibilidade do Governo Eletrônico
+	    \item Selo de Acessibilidade Digital - aferição da política de acessibilidade dos sites
+	    \end{itemize}
+	\end{itemize}
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Proposta
+%===============================================================================
+
+\section{Proposta: Ágil com Acessibilidade}
+
+%===============================================================================
+% Proposta
+%-------------------------------------------------------------------------------
+% Acessibilidade na Web
+%===============================================================================
+
+\subsection{Acessibilidade na Web}
+
+\begin{frame}
+
+   \frametitle{Acessibilidade na Web}
+
+      \begin{block}{Características e Importância}	
+	\begin{itemize}
+	 \item Permitir o acesso às informações (sem prejuízos de conteúdo) independentemente de:
+	    \begin{itemize}
+	    \item Características técnicas dos equipamentos (infra-estrutura de comunicação precária, ambiente desfavorável, qualidade e custo das tecnologias), 
+	    \item Características corporais (deficiências sensoriais, problemas de coordenação motora, pessoas idosas com mudanças nas capacidades devido ao envelhecimento)
+	    \end{itemize}
+	 \item Importância internet para os deficientes
+	    \begin{itemize}
+	    \item permite a criação de novas formas de relacionamento;
+	    \item alternativas de diversão;
+	    \item oportunidades de trabalho;
+	    \item acesso a informações antes obtidas por terceiros.
+	    \end{itemize}	 
+	\end{itemize}
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Proposta
+%-------------------------------------------------------------------------------
+% Acessibilidade na Web
+%===============================================================================
+
+\begin{frame}
+
+   \frametitle{Acessibilidade na Web}
+
+      \begin{block}{Dificuldade}
+	\begin{itemize}
+	 \item Usuário web pode ser qualquer um! Como satisfazer as necessidades dos usuários?	 
+	\end{itemize}
+      \end{block}
+      
+      \begin{block}{Solução}
+	\begin{itemize}
+	 \item Delimitar um grupo-alvo para foco do desenvolvimento (englobar o maior público possível)
+	 \item Apresentação da informação de formas múltiplas (redundância)
+	 \item Verificação e validação devem considerar os quesitos de acessibilidade
+	\end{itemize}
+      \end{block}
+      
+      Site totalmente acessível é utopia! Mas o desenvolvimento deve ser voltado, pelo menos, para atender padrões mínimos de acessibilidade.
+      
+\end{frame}
+
+%===============================================================================
+% Proposta
+%-------------------------------------------------------------------------------
+% Acessibilidade na Web
+%-------------------------------------------------------------------------------
+% Acessibilidade Web nos Dispositivos Móveis
+% Acessibilidade Web e Educação à Distância
+%===============================================================================
+
+\begin{frame}
+
+   \frametitle{Dispositivos Móveis e Educação à Distância}
+
+      \begin{block}{Acessibilidade Web nos Dispositivos Móveis}
+	\begin{itemize}
+	 \item Contribui para inclusão digital
+	 \item Influencia na produtividade das pessoas
+	 \item Hardware pode facilitar ou dificultar!
+	    \begin{itemize}
+	    \item Tamanho das letras
+	    \item Luminosidade da tela
+	    \item Limitações de processamento
+	    \end{itemize}
+	\end{itemize}
+      \end{block}
+
+      \begin{block}{Acessibilidade Web e Educação à Distância}         
+	\begin{itemize}
+	 \item Permite o acesso à educação de pessoas antes excluídas
+	 \item Democratização do Ensino e da Informação
+	 \item Socialização; Desenvolvimento cognitivo e sócioafetivo.
+	 \item Educação para (com) todos
+	\end{itemize}
+      \end{block}
+      
+\end{frame}
+
+%===============================================================================
+% Proposta
+%-------------------------------------------------------------------------------
+% Metodologia Ágil: Simplicidade e Participação do Cliente
+%===============================================================================
+
+\begin{frame}
+
+   \frametitle{Metodologia Ágil: Simplicidade e Participação do Cliente}
+
+      \begin{block}{Simplicidade}
+         \begin{itemize}
+          \item Um dos princípios do manifesto ágil
+          \item Evitar complicações, artifícios, extravagâncias e excessos
+          \item Mais favorável a mudanças (mais fácil incluir/remover/alterar algo)
+          \item Não é apenas estética, nem design simplório, nem redução de funcionalidades
+          \item É foco na criação de real valor para o cliente, é facilidade de uso
+         \end{itemize}         
+      \end{block}
+
+      \begin{block}{Participação do Cliente}
+         \begin{itemize}
+          \item Maior comunicação, feedback mais rápido
+          \item Melhor compreensão
+	    \begin{itemize}
+	      \item dos requisitos pelos desenvolvedores
+	      \item do processo de desenvolvimento pelo cliente
+	    \end{itemize}
+          \item Produtos mais próximos da verdadeira realidade do usuário
+          \item Detecção precoce de falhas e correção prematura
+         \end{itemize}
+      \end{block}
+      
+\end{frame}
+
+%===============================================================================
+% Proposta
+%-------------------------------------------------------------------------------
+% Metodologia Ágil e a Participação do Usuário Deficiente
+%===============================================================================
+
+\begin{frame}
+
+   \frametitle{Metodologia Ágil e a Participação do Usuário Deficiente}
+
+      \begin{block}{}
+         \begin{itemize}
+          \item Software acessível não é atender apenas a lista de recomendações de acessibilidade (instruções/guia de orientação)
+          \item Conhecer as necessidades especiais e as preferências do usuário
+          \item O deficiente é o usuário! O deficiente conhece suas necessidades! Ele detecta as falhas!
+          \item Desenvolvimento ágil prega participação do cliente, neste caso, do deficiente
+         \end{itemize}
+      \end{block}
+
+      \begin{block}{Valores e Princípios do Manifesto Ágil}
+         \begin{itemize}
+          \item Colaboração do cliente mais que negociação de contratos
+          \item Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto
+          \item O método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara
+         \end{itemize}
+      \end{block}
+      
+\end{frame}
+
+%===============================================================================
+% Análise
+%===============================================================================
+
+\section{Análise}
+
+%===============================================================================
+% Análise
+%-------------------------------------------------------------------------------
+% Potenciais Obstáculos entre o Software e o Deficiente
+%===============================================================================
+
+\subsection{Potenciais Obstáculos entre o Software e o Deficiente}
+
+\begin{frame}
+
+   \frametitle{Potenciais Obstáculos entre o Software e o Deficiente}
+
+      \begin{block}{}
+         Na maioria das vezes, no desenvolvimento do software, não há a preocupação com acessibilidade.
+         É uma tarefa árdua (deficientes com limitações motora, visual, auditiva, mental; além de usuários com limitações computacional, cultural, social)
+      \end{block}
+
+      \begin{quotation} \scriptsize
+             Não é possível projetar todos os produtos para que sejam utilizados por todas as pessoas pois sempre haverá alguém 
+      com uma combinação de graves deficiências, que não será capaz de utilizá-los. Sendo assim, um produto não pode ser 
+      caracterizado simplesmente como acessível ou não acessível. Produtos são, na verdade, mais ou menos acessíveis, 
+      e devem atender (ou, de preferência, exceder) padrões mínimos de acessibilidade fixados por lei ou norma técnica. (Sonza, 2008)       
+      \end{quotation}
+       
+
+\end{frame}
+
+%===============================================================================
+% Análise
+%-------------------------------------------------------------------------------
+% Potenciais Obstáculos entre Acessibilidade e os Métodos Ágeis
+%===============================================================================
+
+\subsection{Potenciais Obstáculos entre Acessibilidade e os Métodos Ágeis}
+
+\begin{frame}
+
+   \frametitle{Potenciais Obstáculos entre Acessibilidade e os Métodos Ágeis}
+
+      \begin{block}{}
+         É possível, estabelecer uma relação direta entre o conceito de simplicidade e acessibilidade digital. A primeira favorece a segunda.
+      \end{block}
+
+\end{frame}
+
+%===============================================================================
+% Fim
+%===============================================================================
+\section{}
+   \begin{frame}
+      \begin{center}
+         \huge Obrigada!
+      \end{center}
+   \end{frame}
+
+\end{document}
